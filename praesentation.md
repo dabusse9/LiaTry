@@ -6,7 +6,7 @@
 # Meine Präsentation
 ## Untertitel oder Autor
 
-![Logo](logo.png)
+![Logo](logo1.png)
 
 ---
 
