@@ -1,38 +1,110 @@
-
----
-
-## 🎨 `style.css`
-
-```css
-/* Zentriere h1 und färbe sie blau */
-h1 {
-  text-align: center;
-  color: #007acc;
-  font-family: 'Segoe UI', sans-serif;
-}
-
-/* Etwas mehr Abstand für Folieninhalte */
-section {
+/* ========================
+   Allgemein
+======================== */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fdfdfd;
+  color: #222;
   padding: 2em;
 }
 
-/* Codeblock Styling */
-pre code {
-  background-color: #f0f0f0;
-  color: #333;
-  padding: 1em;
-  border-radius: 5px;
-  display: block;
-  font-size: 0.9em;
+h1, h2, h3 {
+  color: #004080;
+  margin-bottom: 0.5em;
 }
 
-/* Bulletpoints */
-ul {
-  list-style-type: "👉 ";
-  padding-left: 1.2em;
+/* ========================
+   Titelfolie
+======================== */
+.title-slide {
+  text-align: center;
+  padding: 5em 2em;
+  background-color: #e6f0ff;
+  border-radius: 10px;
 }
 
-li {
-  margin-bottom: 0.4em;
-  font-size: 1.1em;
+.title-slide h1 {
+  font-size: 3em;
+  margin-bottom: 0.2em;
+}
+
+.title-slide h2 {
+  font-size: 2em;
+  color: #666;
+}
+
+/* ========================
+   Gliederungsfolie
+======================== */
+.agenda-slide {
+  background-color: #f9f9f9;
+  border-left: 8px solid #007acc;
+  padding: 2em;
+}
+
+.agenda-slide ul {
+  list-style: square;
+  padding-left: 1.5em;
+}
+
+.agenda-slide li {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+/* ========================
+   Split Slide: Text + Bild
+======================== */
+.split-slide {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.split-slide .text {
+  flex: 1;
+}
+
+.split-slide .image {
+  flex: 1;
+  text-align: center;
+}
+
+.split-slide img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* ========================
+   Kapiteltrennfolie
+======================== */
+.chapter-slide {
+  text-align: center;
+  padding: 5em 2em;
+  background-color: #cce0ff;
+  border-radius: 10px;
+}
+
+.chapter-slide h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+/* ========================
+   Logo-Footer
+======================== */
+.logo-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid #ddd;
+}
+
+.logo-footer img {
+  height: 40px;
+  opacity: 0.8;
 }
