@@ -1,45 +1,15 @@
-<!-- CSS einbinden -->
-<style>
-@import url("style.css");
-</style>
+:: Custom Slide
 
-# Meine Präsentation
-## Untertitel oder Autor
+<div class="custom-slide">
+  <div class="left">
+    <h2>Linke Seite</h2>
+    <ul>
+      <li>Text</li>
+    </ul>
+  </div>
+  <div class="right">
+    <img src="logo.png" />
+  </div>
+</div>
 
-![Logo](logo1.png)
-
----
-
-## Gliederung
-
-- Einführung
-- Hauptteil
-- Fazit
-
----
-
-## Einführung
-
-Dies ist eine Beispiel-Folie mit Textinhalt.
-
----
-
-## Split-Folie
-
-:: Slide
-### Linke Seite
-- Punkt A
-- Punkt B
-
-***
-
-### Rechte Seite
-- Punkt 1
-- Punkt 2
 ::
-
----
-
-## Vielen Dank!
-
-![Logo](logo.png)
