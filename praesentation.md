@@ -1,30 +1,69 @@
 <!--
-@title Meine Beispielpräsentation
+@title Professionelles Präsentationstemplate
 @css style.css
 -->
 
-# 🎉 Willkommen zur LiaScript Präsentation
+<div class="title-slide">
+  <h1>📘 Meine Präsentation</h1>
+  <h2>Untertitel oder Thema</h2>
+  <p>Autor · Datum</p>
+</div>
 
 ---
 
-## 🧩 Was ist LiaScript?
-
-LiaScript ist ein Markdown-basiertes Format zur Erstellung interaktiver Kurse und Präsentationen.
-
----
-
-## 💡 Warum LiaScript?
-
-- Einfaches Markdown
-- Interaktivität (Fragen, Code, Multimedia)
-- Präsentationen möglich!
-- Unterstützt Custom CSS
+<div class="agenda-slide">
+  <h2>🧭 Gliederung</h2>
+  <ul>
+    <li>Einleitung</li>
+    <li>Theoretischer Hintergrund</li>
+    <li>Analyse</li>
+    <li>Fazit</li>
+  </ul>
+</div>
 
 ---
 
-## 🔧 Beispielcode
+## 📖 Einleitung
 
-```js
-function hello(name) {
-  console.log("Hallo, " + name + "!");
-}
+Dies ist eine ganz normale Textfolie.  
+Du kannst hier beliebigen Fließtext schreiben.
+
+---
+
+<div class="split-slide">
+  <div class="text">
+    <h3>📌 Wichtiger Punkt</h3>
+    <p>Links steht der Text.</p>
+  </div>
+  <div class="image">
+    ![](assets/bild.png)
+  </div>
+</div>
+
+---
+
+<div class="chapter-slide">
+  <h1>🧠 Kapitel 2 – Analyse</h1>
+</div>
+
+---
+
+## 🔍 Analyse
+
+- Punkt A
+- Punkt B
+- Punkt C
+
+---
+
+## ✅ Fazit
+
+> Klare Argumentation, starker Abschluss.
+
+---
+
+<!-- Logos am unteren Rand -->
+<div class="logo-footer">
+  <img src="assets/logo1.png" />
+  <img src="assets/logo2.png" />
+</div>
