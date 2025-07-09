@@ -1,41 +1,41 @@
 <!--
-@title Professionelles Präsentationstemplate
-@css https://github.com/dabusse9/LiaTry/blob/main/style.css
+@title PowerPoint-Style Präsentation
+@css style.css
 -->
 
 <div class="title-slide">
-  <h1>📘 Meine Präsentation</h1>
-  <h2>Untertitel oder Thema</h2>
-  <p>Autor · Datum</p>
+  <h1>📊 Projektpräsentation</h1>
+  <h2>Ein moderner PowerPoint-Stil mit LiaScript</h2>
+  <p>Max Mustermann · Juli 2025</p>
 </div>
 
 ---
 
 <div class="agenda-slide">
-  <h2>🧭 Gliederung</h2>
+  <h2>📌 Agenda</h2>
   <ul>
     <li>Einleitung</li>
-    <li>Theoretischer Hintergrund</li>
     <li>Analyse</li>
+    <li>Ergebnisse</li>
     <li>Fazit</li>
   </ul>
 </div>
 
 ---
 
-## 📖 Einleitung
+## 🧩 Einleitung
 
-Dies ist eine ganz normale Textfolie.  
-Du kannst hier beliebigen Fließtext schreiben.
+Diese Folie enthält einen Fließtext, wie man ihn auch in PowerPoint verwenden würde.  
+Die Logos erscheinen unten rechts auf jeder Folie automatisch.
 
 ---
 
 <div class="split-slide">
-  <div class="text">
-    <h3>📌 Wichtiger Punkt</h3>
-    <p>Links steht der Text.</p>
+  <div class="split-left">
+    <h3>📝 Theorie</h3>
+    <p>Links steht der erklärende Text zur Theorie.</p>
   </div>
-  <div class="image">
+  <div class="split-right">
     ![](assets/bild.png)
   </div>
 </div>
@@ -43,12 +43,12 @@ Du kannst hier beliebigen Fließtext schreiben.
 ---
 
 <div class="chapter-slide">
-  <h1>🧠 Kapitel 2 – Analyse</h1>
+  <h1>🔎 Kapitel 2: Analyse</h1>
 </div>
 
 ---
 
-## 🔍 Analyse
+## 📈 Ergebnisse
 
 - Punkt A
 - Punkt B
@@ -56,14 +56,7 @@ Du kannst hier beliebigen Fließtext schreiben.
 
 ---
 
-## ✅ Fazit
+## 🏁 Fazit
 
-> Klare Argumentation, starker Abschluss.
+> Präsentieren mit LiaScript kann richtig professionell aussehen!
 
----
-
-<!-- Logos am unteren Rand -->
-<div class="logo-footer">
-  <img src="assets/logo1.png" />
-  <img src="assets/logo2.png" />
-</div>
