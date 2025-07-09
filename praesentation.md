@@ -1,54 +1,45 @@
-LiaScript Präsentation
+<!-- CSS einbinden -->
+<style>
+@import url("style.css");
+</style>
 
-@import url("styles.css");
+# Meine Präsentation
+## Untertitel oder Autor
 
+![Logo](logo.png)
 
-Titelfolie
-layout: cover
+---
 
-Meine Präsentation
-Untertitel: Ein Überblick über das Thema
+## Gliederung
 
-Gliederung
-layout: default
+- Einführung
+- Hauptteil
+- Fazit
 
-Inhaltsverzeichnis
+---
 
-Einführung
-Hauptteil
-Thema 1
-Thema 2
+## Einführung
 
+Dies ist eine Beispiel-Folie mit Textinhalt.
 
-Fazit
-Fragen
+---
 
+## Split-Folie
 
-Textfolie
-layout: default
+:: Slide
+### Linke Seite
+- Punkt A
+- Punkt B
 
-Thema 1: Einführung
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+***
 
-Punkt 1: Wichtige Information
-Punkt 2: Weitere Details
-Punkt 3: Zusammenfassung
+### Rechte Seite
+- Punkt 1
+- Punkt 2
+::
 
+---
 
-Text + Bild
-layout: two-cols
+## Vielen Dank!
 
-Thema 2: Details mit Bild
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-Fazit
-layout: default
-
-Zusammenfassung
-
-Wichtige Erkenntnisse
-Nächste Schritte
-Dank für die Aufmerksamkeit
-
-
+![Logo](logo.png)
