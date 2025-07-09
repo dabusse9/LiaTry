@@ -37,7 +37,7 @@ Die Logos erscheinen automatisch in der Fußzeile.
     <p>Links steht der erklärende Text zur Theorie.</p>
   </div>
   <div class="split-right">
-    ![](assets/beispielbild.jpg)
+    ![](assets/bild.png)
   </div>
 </div>
 
