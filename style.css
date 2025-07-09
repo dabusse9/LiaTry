@@ -1,0 +1,38 @@
+
+---
+
+## 🎨 `style.css`
+
+```css
+/* Zentriere h1 und färbe sie blau */
+h1 {
+  text-align: center;
+  color: #007acc;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Etwas mehr Abstand für Folieninhalte */
+section {
+  padding: 2em;
+}
+
+/* Codeblock Styling */
+pre code {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 1em;
+  border-radius: 5px;
+  display: block;
+  font-size: 0.9em;
+}
+
+/* Bulletpoints */
+ul {
+  list-style-type: "👉 ";
+  padding-left: 1.2em;
+}
+
+li {
+  margin-bottom: 0.4em;
+  font-size: 1.1em;
+}
