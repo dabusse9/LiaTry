@@ -1,8 +1,24 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2 {
+  color: #1a5276;
+}
+
+/* Custom-Slide-Layout */
 .custom-slide {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   gap: 2em;
+  padding: 1em;
+  background-color: #eaf2f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .custom-slide .left,
@@ -10,6 +26,23 @@
   width: 48%;
 }
 
-.custom-slide .right img {
-  width: 100%;
+.custom-slide .left ul {
+  list-style-type: disc;
+  margin-left: 1em;
+}
+
+.custom-slide img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Optional: Logo als Footer-Fix */
+img[src$="logo.png"] {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 60px;
+  opacity: 0.8;
 }
