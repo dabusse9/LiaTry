@@ -1,6 +1,6 @@
 <!--
 @title PowerPoint-Style Präsentation
-link: style.css
+link: https://github.com/dabusse9/LiaTry/blob/main/style.css
 -->
 
 <div class="title-slide">
