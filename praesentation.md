@@ -1,62 +1,54 @@
-<!--
-@title PowerPoint-Style Präsentation
-@description Präsentieren mit LiaScript im PowerPoint-Design
-link: https://github.com/dabusse9/LiaTry/blob/main/style.css
--->
+LiaScript Präsentation
 
-<div class="title-slide">
-  <h1>📊 Projektpräsentation</h1>
-  <h2>Ein moderner PowerPoint-Stil mit LiaScript</h2>
-  <p>Max Mustermann · Juli 2025</p>
-</div>
+@import url("styles.css");
 
----
 
-<div class="agenda-slide">
-  <h2>📌 Agenda</h2>
-  <ul>
-    <li>Einleitung</li>
-    <li>Analyse</li>
-    <li>Ergebnisse</li>
-    <li>Fazit</li>
-  </ul>
-</div>
+Titelfolie
+layout: cover
 
----
+Meine Präsentation
+Untertitel: Ein Überblick über das Thema
 
-## 🧩 Einleitung
+Gliederung
+layout: default
 
-Diese Folie enthält einen Fließtext wie in PowerPoint.  
-Die Logos erscheinen automatisch in der Fußzeile.
+Inhaltsverzeichnis
 
----
+Einführung
+Hauptteil
+Thema 1
+Thema 2
 
-<div class="split-slide">
-  <div class="split-left">
-    <h3>📝 Theorie</h3>
-    <p>Links steht der erklärende Text zur Theorie.</p>
-  </div>
-  <div class="split-right">
-    ![](assets/bild.png)
-  </div>
-</div>
 
----
+Fazit
+Fragen
 
-<div class="chapter-slide">
-  <h1>🔎 Kapitel 2: Analyse</h1>
-</div>
 
----
+Textfolie
+layout: default
 
-## 📈 Ergebnisse
+Thema 1: Einführung
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-- Punkt A
-- Punkt B
-- Punkt C
+Punkt 1: Wichtige Information
+Punkt 2: Weitere Details
+Punkt 3: Zusammenfassung
 
----
 
-## 🏁 Fazit
+Text + Bild
+layout: two-cols
 
-> Präsentieren mit LiaScript kann richtig professionell aussehen!
+Thema 2: Details mit Bild
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+Fazit
+layout: default
+
+Zusammenfassung
+
+Wichtige Erkenntnisse
+Nächste Schritte
+Dank für die Aufmerksamkeit
+
+
