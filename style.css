@@ -92,14 +92,14 @@ ul li {
   margin-bottom: 0.5em;
 }
 
-/* === Fußzeile mit Logos === */
+/* === Logos in Fußzeile === */
 body::after {
   content: "";
   display: block;
   height: 50px;
   background-image: url("assets/logo1.png"), url("assets/logo2.png");
   background-repeat: no-repeat, no-repeat;
-  background-position: right 80px center, right 10px center;
+  background-position: right 80px center, right 20px center;
   background-size: 40px auto, 40px auto;
   position: fixed;
   bottom: 20px;
