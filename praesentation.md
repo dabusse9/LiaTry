@@ -1,7 +1,7 @@
 <!--
 @title PowerPoint-Style Präsentation
 @description Präsentieren mit LiaScript im PowerPoint-Design
-link: style.css
+link: https://github.com/dabusse9/LiaTry/blob/main/style.css
 -->
 
 <div class="title-slide">
