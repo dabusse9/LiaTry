@@ -1,6 +1,6 @@
 <!--
 @title PowerPoint-Style Präsentation
-@css style.css
+link: style.css
 -->
 
 <div class="title-slide">
