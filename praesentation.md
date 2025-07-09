@@ -1,6 +1,7 @@
 <!--
 @title PowerPoint-Style Präsentation
-link: https://github.com/dabusse9/LiaTry/blob/main/style.css
+@description Präsentieren mit LiaScript im PowerPoint-Design
+@link style.css
 -->
 
 <div class="title-slide">
@@ -25,8 +26,8 @@ link: https://github.com/dabusse9/LiaTry/blob/main/style.css
 
 ## 🧩 Einleitung
 
-Diese Folie enthält einen Fließtext, wie man ihn auch in PowerPoint verwenden würde.  
-Die Logos erscheinen unten rechts auf jeder Folie automatisch.
+Diese Folie enthält einen Fließtext wie in PowerPoint.  
+Die Logos erscheinen automatisch in der Fußzeile.
 
 ---
 
@@ -36,7 +37,7 @@ Die Logos erscheinen unten rechts auf jeder Folie automatisch.
     <p>Links steht der erklärende Text zur Theorie.</p>
   </div>
   <div class="split-right">
-    ![abc](https://github.com/dabusse9/LiaTry/blob/main/bild.png?raw=true)
+    ![](assets/beispielbild.jpg)
   </div>
 </div>
 
@@ -59,4 +60,3 @@ Die Logos erscheinen unten rechts auf jeder Folie automatisch.
 ## 🏁 Fazit
 
 > Präsentieren mit LiaScript kann richtig professionell aussehen!
-
