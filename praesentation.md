@@ -36,7 +36,7 @@ Die Logos erscheinen unten rechts auf jeder Folie automatisch.
     <p>Links steht der erklärende Text zur Theorie.</p>
   </div>
   <div class="split-right">
-    ![abc](bild.png)
+    ![abc](https://github.com/dabusse9/LiaTry/blob/main/bild.png?raw=true)
   </div>
 </div>
 
