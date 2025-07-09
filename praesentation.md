@@ -36,7 +36,7 @@ Die Logos erscheinen unten rechts auf jeder Folie automatisch.
     <p>Links steht der erklärende Text zur Theorie.</p>
   </div>
   <div class="split-right">
-    ![](assets/bild.png)
+    ![abc](bild.png)
   </div>
 </div>
 
