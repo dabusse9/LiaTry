@@ -1,111 +1,42 @@
-/* === Grundlayout === */
+/* Hintergrund und Schrift */
 body {
-  font-family: "Segoe UI", sans-serif;
-  background-color: #ffffff;
-  color: #f80;
-  padding: 3em 4em 5em 4em;
-  box-sizing: border-box;
-  position: relative;
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+  color: #212529;
 }
 
-/* === Überschriften === */
+/* Titelseiten */
 h1 {
-  font-size: 2.6em;
-  color: #003366;
+  font-size: 3em;
+  color: #2c3e50;
 }
 
 h2 {
   font-size: 2em;
-  color: #004080;
+  color: #34495e;
 }
 
-h3 {
-  font-size: 1.6em;
-  color: #0059b3;
-}
-
-/* === Titel-Folie === */
-.title-slide {
-  text-align: center;
-  margin-top: 5em;
-}
-
-.title-slide h1 {
-  font-size: 3.5em;
-  margin-bottom: 0.3em;
-}
-
-.title-slide h2 {
-  font-size: 2em;
-  color: #666;
-}
-
-.title-slide p {
-  font-size: 1.2em;
-  margin-top: 2em;
-}
-
-/* === Agenda-Folie === */
-.agenda-slide {
-  border-left: 8px solid #007acc;
-  background-color: #f5faff;
-  padding: 2em;
-  border-radius: 8px;
-}
-
-/* === Split Folie === */
-.split-slide {
-  display: flex;
-  gap: 2em;
-  align-items: flex-start;
-}
-
-.split-left, .split-right {
-  flex: 1;
-}
-
-.split-right img {
-  max-width: 100%;
-  border-radius: 8px;
-}
-
-/* === Kapitel-Folie === */
-.chapter-slide {
-  background-color: #e6f0ff;
-  padding: 5em;
-  border-radius: 12px;
-  text-align: center;
-}
-
-.chapter-slide h1 {
-  font-size: 2.8em;
-  color: #003366;
-}
-
-/* === Listen === */
-ul {
-  padding-left: 1.2em;
-}
-
-ul li {
-  font-size: 1.2em;
-  margin-bottom: 0.5em;
-}
-
-/* === Logos in Fußzeile === */
-body::after {
-  content: "";
-  display: block;
-  height: 50px;
-  background-image: url("assets/logo1.png"), url("assets/logo2.png");
-  background-repeat: no-repeat, no-repeat;
-  background-position: right 80px center, right 20px center;
-  background-size: 40px auto, 40px auto;
+/* Logo unten rechts */
+img[src$="logo.png"] {
   position: fixed;
-  bottom: 20px;
-  left: 0;
-  right: 0;
-  z-index: 999;
-  pointer-events: none;
+  bottom: 10px;
+  right: 10px;
+  width: 80px;
   opacity: 0.7;
+}
+
+/* Split-Slide Styling */
+.slide {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.slide > * {
+  width: 48%;
+}
+
+/* Bullet Points */
+li {
+  margin-bottom: 0.5em;
 }
