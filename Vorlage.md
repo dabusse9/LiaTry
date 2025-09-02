@@ -2,7 +2,7 @@
 link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/Vorlage.css
 -->
 
-## <span style="color:blue">some Titel text</span>
+## <span style="color:blue"> Titel </span>
 
 <div class="title-slide">
   <h1>Präsentationstitel</h1>
