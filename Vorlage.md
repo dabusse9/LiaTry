@@ -42,29 +42,20 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
 
 # Folie mit Zwei Inhaltsbereichen (Vorlage)
 
-<div class="two-columns">
-  <div class="column">
-    ### Inhaltsbereich 1
-    - Inhalt links.
-    - Weiterer Text.
-       - Inhalt links.
-    - Weiterer Text.
-       - Inhalt links.
-    - Weiterer Text.
-       - Inhalt links.
-    - Weiterer Text.
-       - Inhalt links.
-    - Weiterer Text.
-       - Inhalt links.
-    - Weiterer Text.
-    lalalal
-  </div>
-  <div class="column">
-    ### Inhaltsbereich 2
-    - Inhalt rechts.
-    - Weiterer Text.
-  </div>
-</div>
+<table class="two-columns">
+  <tr>
+    <td class="column">
+      ### Inhaltsbereich 1
+      - Inhalt links.
+      - Weiterer Text.
+    </td>
+    <td class="column">
+      ### Inhaltsbereich 2
+      - Inhalt rechts.
+      - Weiterer Text.
+    </td>
+  </tr>
+</table>
 
 <div class="footer-logo"></div>
 
