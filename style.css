@@ -9,7 +9,7 @@ body {
 
 /* PowerPoint-ähnliches Folienformat (Querformat) */
 .lia-slide {
-  max-width: 960px !important;
+  max-width: 1200px !important;
   aspect-ratio: 16 / 9 !important;
   margin: 20px auto !important;
   padding: 40px !important;
@@ -55,12 +55,13 @@ pre {
 
 /* Logo am unteren Rand */
 .slide-logo {
-  position: absolute !important;
+  position: fixed !important;
   bottom: 20px !important;
-  right: 20px !important;
   width: 100px !important;
   height: auto !important;
   opacity: 0.8 !important;
+  z-index: 1000 !important;
+  border-radius: 10px !important;
 }
 
 /* Responsive Anpassung */
@@ -68,12 +69,11 @@ pre {
   .lia-slide {
     padding: 20px !important;
     aspect-ratio: auto !important;
-    min-height: 400px !important;
+    min-height: 500px !important;
   }
   .slide-logo {
     width: 80px !important;
     bottom: 10px !important;
-    right: 10px !important;
   }
 }
 
@@ -138,103 +138,6 @@ pre {
     margin: 1rem 0 !important;
 }
 
-/* Logo classes */
-.logo-unevoc {
-  position: fixed !important;
-  bottom: 1px !important;
-  left: 20px !important;
-  opacity: 0.9 !important;
-  z-index: 1000 !important;
-  text-align: center !important;
-  width: 100px !important;
-}
-
-.logo-asset {
-  position: fixed !important;
-  bottom: 1px !important;
-  left: 180px !important;
-  opacity: 0.9 !important;
-  z-index: 1000 !important;
-  text-align: center !important;
-  width: 100px !important;
-}
-
-.logo-hwk {
-  position: fixed !important;
-  bottom: 1px !important;
-  left: 340px !important;
-  opacity: 0.9 !important;
-  z-index: 1000 !important;
-  text-align: center !important;
-  width: 100px !important;
-}
-
-.logo-giz {
-  position: fixed !important;
-  bottom: 1px !important;
-  left: 500px !important;
-  opacity: 0.9 !important;
-  z-index: 1000 !important;
-  text-align: center !important;
-  width: 100px !important;
-}
-
-.logo-uovt {
-  position: fixed !important;
-  bottom: 1px !important;
-  left: 660px !important;
-  opacity: 0.9 !important;
-  z-index: 1000 !important;
-  text-align: center !important;
-  width: 100px !important;
-}
-
-.logo-ovgu {
-  position: fixed !important;
-  bottom: 1px !important;
-  left: 820px !important;
-  opacity: 0.9 !important;
-  z-index: 1000 !important;
-  text-align: center !important;
-  width: 100px !important;
-}
-
-.logo-hrdc {
-  position: fixed !important;
-  bottom: 1px !important;
-  left: 980px !important;
-  opacity: 0.9 !important;
-  z-index: 1000 !important;
-  text-align: center !important;
-  width: 100px !important;
-}
-
-.logo-mitd {
-  position: fixed !important;
-  bottom: 1px !important;
-  left: 1140px !important;
-  opacity: 0.9 !important;
-  z-index: 1000 !important;
-  text-align: center !important;
-  width: 100px !important;
-}
-
-.logo-img {
-  height: 60px !important;
-  width: auto !important;
-  border-radius: 10px !important;
-}
-
-.logo-text {
-  font-size: 0.8em !important;
-  color: #555 !important;
-  margin-top: 5px !important;
-}
-
-.logo-hwk .logo-text {
-  margin-top: 7px !important;
-}
-
 /* License info */
 .license-info {
   text-align: center !important;
@@ -246,7 +149,7 @@ pre {
   font-size: 14px !important;
 }
 
-/* AI 2027 warning (added class as per content) */
+/* AI 2027 warning */
 .ai-2027-warning {
   background: #fff3e0 !important;
   border: 2px dashed #ff9800 !important;
