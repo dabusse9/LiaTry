@@ -12,23 +12,32 @@ a {
   color: #F48221 !important; /* Orange für Links */
 }
 
+/* Bulletpoints orange färben */
 ul li::marker {
   color: #F48221 !important; /* Orange für Bullet-Points */
 }
 
-/* Für alle Slides: Footer mit Logo */
-section::after {
-  content: "" !important;
-  display: block !important;
+/* Fallback für LiaScript, falls ::marker nicht funktioniert */
+ul li {
+  color: #000000 !important; /* Text bleibt schwarz */
+  list-style-type: disc !important; /* Sicherstellen, dass Bulletpoints verwendet werden */
+}
+
+ul li:before {
+  color: #F48221 !important; /* Zusätzliche Regel für LiaScript-kompatible Bulletpoints */
+}
+
+/* Footer-Logo */
+.footer-logo {
   position: fixed !important;
   bottom: 10px !important;
   right: 20px !important;
-  width: 100px !important; /* Passe die Breite des Logos an */
-  height: 50px !important; /* Passe die Höhe an */
+  width: 100px !important; /* Breite des Logos */
+  height: 50px !important; /* Höhe des Logos */
   background-image: url('https://raw.githubusercontent.com/dabusse9/LiaTry/main/FHW.png') !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
-  z-index: 10000 !important; /* Höherer z-index für Sichtbarkeit */
+  z-index: 10000 !important; /* Hoher z-index für Sichtbarkeit */
 }
 
 /* Zwei-Spalten-Layout */
@@ -50,4 +59,3 @@ img {
   height: auto !important;
   border: 2px solid #F48221 !important; /* Orange Rahmen um Bilder */
 }
-```
