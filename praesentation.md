@@ -1,6 +1,4 @@
-<!-- 
-link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.css
--->
+
 
 
 ## Beispiel-Präsentation mit HTML-Custom-Slide
