@@ -2,7 +2,7 @@
 link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/Vorlage.css
 -->
 
-# 
+# " "
 
 <div class="title-slide">
   <h1>Präsentationstitel</h1>
