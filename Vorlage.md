@@ -25,7 +25,7 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/Vorlage.
 
 ---
 
-## Folie mit Einem Inhaltsbereich
+# Folie mit Einem Inhaltsbereich (Vorlage)
 
 <div class="content-box">
 Dies ist der Hauptinhaltsbereich.  
