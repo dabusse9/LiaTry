@@ -61,12 +61,10 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
 
 <section class="flex-container">
 <!-- class="flex-child-bordered" -->
-    - Inhalt links.
-    - Weiterer Text.
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
 
 <!-- class="flex-child-bordered" -->
-    - Inhalt rechts.
-    - Weiterer Text.
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
 
 </section>
 
