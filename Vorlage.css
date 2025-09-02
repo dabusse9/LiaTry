@@ -71,18 +71,22 @@ ul li:before {
 /* Zwei-Spalten-Layout */
 .two-columns {
   display: flex !important;
-  justify-content: space-between !important;
-  height: calc(100% - 60px) !important; /* Maximale Höhe minus Überschrift und Footer */
+  flex-direction: row !important; /* Explizit nebeneinander */
+  flex-wrap: nowrap !important; /* Verhindert Umbruch der Spalten */
+  min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
+  width: 100% !important; /* Volle Breite der Folie */
   margin: 10px 0 !important; /* Abstand oben und unten */
   gap: 20px !important; /* Abstand zwischen Spalten */
+  box-sizing: border-box !important; /* Padding und Border in Breite einbeziehen */
 }
 
 .two-columns .column {
   flex: 1 !important; /* Gleiche Breite für beide Spalten */
-  padding: 15px !important; /* Etwas mehr Padding für bessere Lesbarkeit */
+  min-height: 100% !important; /* Volle Höhe des Containers */
+  padding: 15px !important; /* Innenabstand für Lesbarkeit */
   border: 1px solid #F48221 !important; /* Durchgezogene orange Umrandung */
   border-radius: 5px !important; /* Abgerundete Ecken */
-  box-sizing: border-box !important; /* Sicherstellen, dass Padding und Border in die Breite einbezogen werden */
+  box-sizing: border-box !important; /* Padding und Border in Breite einbeziehen */
   overflow: auto !important; /* Scrollen bei zu viel Inhalt */
 }
 
