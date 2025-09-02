@@ -1,3 +1,4 @@
+```
 body {
   background-color: #FFFFFF !important; /* Weißer Hintergrund */
   color: #000000 !important; /* Schwarze Schrift */
@@ -88,7 +89,7 @@ ul li:before {
   display: flex !important;
   flex-wrap: wrap !important; /* Allows the items to wrap as needed */
   align-items: stretch !important;
-  gap: 20px !important; /* Adds both horizontal and vertical spacing between items */
+  gap: 15px !important; /* Reduzierter Abstand zwischen Spalten */
 }
 
 .flex-child { 
@@ -100,9 +101,9 @@ ul li:before {
   flex: 1 !important;
   margin-right: 20px !important; /* Adds space between the columns */
   min-width: 250px !important; /* Mindestbreite für Spalten */
-  border: 1px solid #F48221 !important; /* Durchgezogene orange Umrandung */
+  border: 2px solid #F48221 !important; /* Dickere durchgezogene orange Umrandung */
   border-radius: 5px !important; /* Abgerundete Ecken */
-  padding: 15px !important; /* Innenabstand für Lesbarkeit */
+  padding: 10px !important; /* Reduziertes Padding für besseren Abstand der Bulletpoints */
   box-sizing: border-box !important; /* Padding und Border in Breite einbeziehen */
   font-size: 1.3em !important; /* Größere Schrift für Inhalt */
 }
@@ -112,7 +113,7 @@ ul li:before {
   display: flex !important;
   flex-wrap: wrap !important; /* Spalten umbrechen bei kleinen Bildschirmen */
   align-items: stretch !important; /* Spalten auf gleiche Höhe strecken */
-  gap: 20px !important; /* Abstand zwischen Spalten */
+  gap: 15px !important; /* Reduzierter Abstand zwischen Spalten */
   width: 98vw !important; /* Nahezu volle viewport-Breite */
   min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
   margin: 0 auto !important; /* Horizontale Zentrierung */
@@ -153,3 +154,4 @@ img {
   max-width: 100% !important;
   height: auto !important;
 }
+```
