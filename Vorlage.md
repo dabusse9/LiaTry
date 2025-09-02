@@ -48,9 +48,21 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
       ### Inhaltsbereich 1
       - Inhalt links.
       - Weiterer Text.
+      - Inhalt links.
+      - Weiterer Text.
+      - Inhalt links.
+      - Weiterer Text.
+      - Inhalt links.
+      - Weiterer Text.
     </td>
     <td class="column">
       ### Inhaltsbereich 2
+      - Inhalt rechts.
+      - Weiterer Text.
+      - Inhalt rechts.
+      - Weiterer Text.
+      - Inhalt rechts.
+      - Weiterer Text.
       - Inhalt rechts.
       - Weiterer Text.
     </td>
