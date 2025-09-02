@@ -4,11 +4,12 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/Vorlage.
 
 # Titel-Folie (Vorlage)
 
-**Deine Universitätsfakultät**  
-Präsentationstitel  
-
-Von: Dein Name  
-Datum: 02.09.2025
+<div class="title-slide">
+  <h1>Präsentationstitel</h1>
+  <h2>Deine Universitätsfakultät</h2>
+  <p class="title-meta">Von: Dein Name</p>
+  <p class="title-meta">Datum: 02.09.2025</p>
+</div>
 
 <div class="footer-logo"></div>
 
