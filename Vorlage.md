@@ -63,20 +63,26 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
 
 # Folie mit Zwei Inhaltsbereichen ohne Umrandung (Vorlage)
 
-<table class="two-columns-no-border">
-  <tr>
-    <td class="column-no-border">
-      - Bullet-Point 1 links.
-      - Bullet-Point 2 links.
-      - Bullet-Point 3 links.
-    </td>
-    <td class="column-no-border">
-      - Bullet-Point 1 rechts.
-      - Bullet-Point 2 rechts.
-      - Bullet-Point 3 rechts.
-    </td>
-  </tr>
-</table>
+<div class="table-container">
+  <table class="two-columns-no-border">
+    <tr>
+      <td class="column-no-border">
+        <ul>
+          <li>Bullet-Point 1 links.</li>
+          <li>Bullet-Point 2 links.</li>
+          <li>Bullet-Point 3 links.</li>
+        </ul>
+      </td>
+      <td class="column-no-border">
+        <ul>
+          <li>Bullet-Point 1 rechts.</li>
+          <li>Bullet-Point 2 rechts.</li>
+          <li>Bullet-Point 3 rechts.</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <div class="footer-logo"></div>
 
