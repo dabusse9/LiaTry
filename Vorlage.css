@@ -1,4 +1,3 @@
-```
 body {
   background-color: #FFFFFF !important; /* Weißer Hintergrund */
   color: #000000 !important; /* Schwarze Schrift */
@@ -84,42 +83,54 @@ ul li:before {
   margin: 5px 0 !important;
 }
 
-/* Zwei-Spalten-Layout (mit Umrandung) */
-.two-columns {
+/* Flexbox-Container für Zwei-Spalten-Layout (mit Umrandung) */
+.flex-container {
   display: flex !important;
   justify-content: space-between !important; /* Spalten nebeneinander mit Abstand */
+  flex-wrap: nowrap !important; /* Kein Umbruch, Spalten bleiben nebeneinander */
   width: 98vw !important; /* Nahezu volle viewport-Breite */
   min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
   margin: 0 auto !important; /* Horizontale Zentrierung */
   padding: 0 !important;
 }
 
-.two-columns .column {
-  width: 48% !important; /* Etwas weniger als 50% für Abstand */
+.flex-container .flex-child {
+  flex: 1 !important; /* Gleiche Breite für beide Spalten */
   min-height: 100% !important; /* Volle Höhe des Containers */
   padding: 15px !important; /* Innenabstand für Lesbarkeit */
   border: 1px solid #F48221 !important; /* Durchgezogene orange Umrandung */
   border-radius: 5px !important; /* Abgerundete Ecken */
   box-sizing: border-box !important; /* Padding und Border in Breite einbeziehen */
+  margin-right: 20px !important; /* Abstand zwischen Spalten */
   font-size: 1.3em !important; /* Größere Schrift für Inhalt */
 }
 
-/* Zwei-Spalten-Layout (ohne Umrandung) */
-.two-columns-no-border {
+.flex-container .flex-child:last-child {
+  margin-right: 0 !important; /* Kein rechter Abstand für die letzte Spalte */
+}
+
+/* Flexbox-Container für Zwei-Spalten-Layout (ohne Umrandung) */
+.flex-container.no-border {
   display: flex !important;
   justify-content: space-between !important; /* Spalten nebeneinander mit Abstand */
+  flex-wrap: nowrap !important; /* Kein Umbruch, Spalten bleiben nebeneinander */
   width: 98vw !important; /* Nahezu volle viewport-Breite */
   min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
   margin: 0 auto !important; /* Horizontale Zentrierung */
   padding: 0 !important;
 }
 
-.two-columns-no-border .column-no-border {
-  width: 48% !important; /* Etwas weniger als 50% für Abstand */
+.flex-container.no-border .flex-child.no-border {
+  flex: 1 !important; /* Gleiche Breite für beide Spalten */
   min-height: 100% !important; /* Volle Höhe des Containers */
   padding: 15px !important; /* Innenabstand für Lesbarkeit */
   box-sizing: border-box !important; /* Padding in Breite einbeziehen */
+  margin-right: 20px !important; /* Abstand zwischen Spalten */
   font-size: 1.3em !important; /* Größere Schrift für Inhalt */
+}
+
+.flex-container.no-border .flex-child.no-border:last-child {
+  margin-right: 0 !important; /* Kein rechter Abstand für die letzte Spalte */
 }
 
 /* Inhaltsbereich für Folie mit Einem Inhaltsbereich */
@@ -137,4 +148,3 @@ img {
   max-width: 100% !important;
   height: auto !important;
 }
-```
