@@ -1,39 +1,7 @@
-<!-- Eingebettetes CSS -->
-<style>
-.custom-slide {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 2em;
-  padding: 1.5em;
-  background: #eaf2f8;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  font-family: 'Segoe UI', sans-serif;
-}
+<!-- 
+link: https://github.com/dabusse9/LiaTry/blob/main/style.css
+-->
 
-.custom-slide .left,
-.custom-slide .right {
-  width: 48%;
-}
-
-.custom-slide h2 {
-  color: #1a5276;
-  margin-bottom: 0.5em;
-}
-
-.custom-slide ul {
-  list-style-type: disc;
-  padding-left: 1.2em;
-  color: #2e4053;
-}
-
-.custom-slide img {
-  width: 100%;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-}
-</style>
 
 # Beispiel-Präsentation mit HTML-Custom-Slide
 
