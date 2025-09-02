@@ -1,3 +1,45 @@
-.h1{
-  color: red !important;
+
+/* Allgemeine Stile für den LiaScript-Kurs */
+body {
+  background-color: #f5f5f5 !important;
+  font-family: 'Arial', sans-serif !important;
+  color: #333 !important;
+}
+
+/* Stil für Überschriften */
+h1, h2, h3 {
+  color: #2c3e50 !important;
+  border-bottom: 2px solid #3498db !important;
+  padding-bottom: 5px !important;
+}
+
+/* Stil für Quiz-Elemente */
+input[type="radio"] + label {
+  background-color: #ecf0f1 !important;
+  padding: 5px 10px !important;
+  border-radius: 5px !important;
+  transition: background-color 0.3s !important;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #3498db !important;
+  color: white !important;
+}
+
+/* Stil für Code-Blöcke */
+pre {
+  background-color: #2d2d2d !important;
+  color: #f8f8f2 !important;
+  padding: 15px !important;
+  border-radius: 5px !important;
+  font-family: 'Courier New', monospace !important;
+}
+
+/* Container für LiaScript-Inhalte */
+.lia-slide {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 20px !important;
+  background-color: white !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
 }
