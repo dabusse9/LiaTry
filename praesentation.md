@@ -1,5 +1,5 @@
 <!-- 
-link: [https://github.com/dabusse9/LiaTry/blob/main/style.css](https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.css)
+link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.css
 -->
 
 
