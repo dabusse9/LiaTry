@@ -52,7 +52,7 @@ ul li:before {
 }
 
 .title-slide h1 {
-  font-size: 2.5em !important; /* Größerer Titel */
+  font-size: 4.0em !important; /* Größerer Titel */
   margin-bottom: 10px !important;
   border-bottom: 2px solid #F48221 !important; /* Orange Linie unter dem Titel */
 }
@@ -88,11 +88,13 @@ img {
 }
 
 /* Folientitel auf der ersten Folie ausblenden */
-section:first-child h1:first-child {
+section.lia-slide:first-child h1:first-child,
+section.slide:first-child h1:first-child {
   display: none !important; /* Folientitel der ersten Folie ausblenden */
 }
 
 /* Fallback: Folientitel auf Weiß setzen, falls Ausblenden nicht funktioniert */
-section:first-child h1:first-child {
+section.lia-slide:first-child h1:first-child,
+section.slide:first-child h1:first-child {
   color: #FFFFFF !important; /* Weiß, um unsichtbar zu sein */
 }
