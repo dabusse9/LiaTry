@@ -115,9 +115,8 @@ Kurzer Text zum Bild.
 # Abschluss-Folie (Vorlage)
 <div class="title-slide">
   <h1>Vielen Dank für die Aufmerksamkeit</h1>
-  <h2>Deine Universitätsfakultät</h2>
-  <p class="title-meta">Gibt es Fragen?</p>
-  <p class="title-meta">Kontakt: deine.email@uni.de</p>
+  <h2>Gibt es Fragen?</h2>
+  <p class="final-meta">Kontakt: deine.email@uni.de</p>
 </div>
 
 <div class="footer-logo"></div>
