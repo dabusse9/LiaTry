@@ -159,9 +159,25 @@ ul li:before {
   font-size: 1.3em !important; /* Größere Schrift für Inhalt */
 }
 
-/* Weitere Anpassungen, z. B. für Bilder */
-img {
+/* Bild und Bildunterschrift */
+.image-container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 20px 0 !important; /* Abstand oben und unten */
+}
+
+.image-container img {
   max-width: 100% !important;
   height: auto !important;
+  display: block !important;
+  margin: 0 auto !important; /* Zentriert das Bild horizontal */
 }
-```
+
+.image-container .image-caption {
+  font-size: 1.3em !important; /* Konsistente Schriftgröße */
+  color: #000000 !important; /* Schwarze Schrift */
+  text-align: center !important;
+  margin-top: 10px !important; /* Abstand zum Bild */
+}
