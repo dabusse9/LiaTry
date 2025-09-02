@@ -15,7 +15,7 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/Vorlage.
 
 ---
 
-## <span style="color:white">Überschrift-Folie</span>
+## <span style="color:white">Überschrift-Folie (Vorlage)</span>
 
 <div class="title-slide">
   <h1>Überschrift-Folie</h1>
@@ -25,14 +25,16 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/Vorlage.
 
 ---
 
-# Folie mit Einem Inhaltsbereich (Vorlage)
+## Folie mit Einem Inhaltsbereich
 
+<div class="content-box">
 Dies ist der Hauptinhaltsbereich.  
 Hier kannst du Text, Aufzählungen oder Absätze einfügen.  
 
 - Punkt 1
 - Punkt 2
 - Punkt 3
+</div>
 
 <div class="footer-logo"></div>
 
