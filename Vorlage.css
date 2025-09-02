@@ -78,9 +78,19 @@ ul li:before {
   margin-bottom: 20px !important;
 }
 
+.title-slide.final-slide h2 {
+  color: #000000 !important; /* Schwarze Schrift für h2 in Abschluss-Folie */
+}
+
 .title-slide .title-meta {
   font-size: 1.3em !important; /* Größere Schrift für Autor und Datum */
   color: #000000 !important; /* Schwarze Schrift für Meta-Informationen */
+  margin: 5px 0 !important;
+}
+
+.title-slide .final-meta {
+  font-size: 1.3em !important; /* Größere Schrift für Kontakt in Abschluss-Folie */
+  color: #000000 !important; /* Schwarze Schrift */
   margin: 5px 0 !important;
 }
 
