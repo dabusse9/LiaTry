@@ -118,7 +118,7 @@ Füge hier zusätzlichen Text ein, falls nötig.
 <div class="title-slide final-slide">
   <h1>Vielen Dank für die Aufmerksamkeit</h1>
   <h2>Gibt es Fragen?</h2>
-    <p class="title-meta">Kontakt: "mail(at)web.de" </p>
+    <p class="title-meta">Kontakt: mail(at)web.de </p>
 </div>
 
 <div class="footer-logo"></div>
