@@ -23,7 +23,7 @@ ul li::marker {
   right: 20px !important;
   width: 100px !important; /* Passe die Breite des Logos an */
   height: auto !important;
-  background-image: url('logo.png') !important; /* Pfad zum Logo, relativ zur CSS */
+  background-image: url('FHW.png') !important; /* Pfad zum Logo, relativ zur CSS */
   background-size: contain !important;
   background-repeat: no-repeat !important;
   z-index: 1000 !important;
