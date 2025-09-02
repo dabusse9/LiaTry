@@ -59,7 +59,7 @@ Füge hier zusätzlichen Text ein, falls nötig.
 
 # Folie mit Bild (Vorlage)
 
-![Beschreibung des Bildes](https://example.com/bild.png)
+![Beschreibung des Bildes](https://github.com/dabusse9/LiaTry/blob/main/FHW.png)
 
 Kurzer Text zum Bild.
 
