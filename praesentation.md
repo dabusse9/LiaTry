@@ -2,56 +2,6 @@
 link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.css
 -->
 
-@logos
-<!-- UNEVOC -->
-<div class="logo-unevoc">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" class="logo-img" />
-  <div class="logo-text">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div class="logo-asset">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" class="logo-img" />
-  <div class="logo-text">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div class="logo-hwk">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" class="logo-img" />
-  <div class="logo-text">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div class="logo-giz">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" class="logo-img" />
-  <div class="logo-text">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div class="logo-uovt">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" class="logo-img" />
-  <div class="logo-text">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div class="logo-ovgu">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" class="logo-img" />
-  <div class="logo-text">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div class="logo-hrdc">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" class="logo-img" />
-  <div class="logo-text">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div class="logo-mitd">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" class="logo-img" />
-  <div class="logo-text">MITD</div>
-</div>
-@end
-
 ## Welcome ##
 
 <svg xmlns='http://www.w3.org/2000/svg' width='1100' height='400' viewBox='0 0 800 450'>
@@ -94,7 +44,15 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.cs
   </text>
 </svg>
 
-@logos
+<!-- Logos -->
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" class="slide-logo" style="left: 20px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" class="slide-logo" style="left: 180px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" class="slide-logo" style="left: 340px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" class="slide-logo" style="left: 500px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" class="slide-logo" style="left: 660px;">
+<img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" class="slide-logo" style="left: 820px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" class="slide-logo" style="left: 980px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" class="slide-logo" style="left: 1140px;">
 
 ## A UNESCO-UNEVOC Perspective for Global Stakeholders
 
@@ -105,14 +63,20 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.cs
 
 <p>
 📅 Expert Meeting on AI and TVET 
-
 🌍 Global Best Practices 
-
 🤝 International Cooperation
 </p>
 </div>
 
-@logos
+<!-- Logos -->
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" class="slide-logo" style="left: 20px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" class="slide-logo" style="left: 180px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" class="slide-logo" style="left: 340px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" class="slide-logo" style="left: 500px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" class="slide-logo" style="left: 660px;">
+<img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" class="slide-logo" style="left: 820px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" class="slide-logo" style="left: 980px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" class="slide-logo" style="left: 1140px;">
 
 ---
 
@@ -129,13 +93,19 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.cs
 
 **🛠️ Methodology:** Interactive discussions, case studies, policy analysis, and collaborative planning
 
-@logos
+<!-- Logos -->
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" class="slide-logo" style="left: 20px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" class="slide-logo" style="left: 180px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" class="slide-logo" style="left: 340px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" class="slide-logo" style="left: 500px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" class="slide-logo" style="left: 660px;">
+<img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" class="slide-logo" style="left: 820px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" class="slide-logo" style="left: 980px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" class="slide-logo" style="left: 1140px;">
 
 ---
 
 ## 📊 The AI 2027 Timeline: Why TVET Must Act Now
-
-@logos
 
 ### 🔮 Critical Milestones Affecting TVET
 
@@ -160,7 +130,15 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.cs
 
 [Source: AI 2027](AI 2027 https://share.google/UAtc7q8KU8pQBAXKl)
 
-@logos
+<!-- Logos -->
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" class="slide-logo" style="left: 20px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" class="slide-logo" style="left: 180px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" class="slide-logo" style="left: 340px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" class="slide-logo" style="left: 500px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" class="slide-logo" style="left: 660px;">
+<img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" class="slide-logo" style="left: 820px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" class="slide-logo" style="left: 980px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" class="slide-logo" style="left: 1140px;">
 
 ### 📈 Economic Impact Projections
 
@@ -170,13 +148,19 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.cs
 | **2026** | Advanced automation | 30% of routine TVET tasks | 📊 Curriculum redesign, data infrastructure |
 | **2027** | Near-human AI | 60% of knowledge work transformed | 🤖 Full AI integration, new roles created |
 
-@logos
+<!-- Logos -->
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" class="slide-logo" style="left: 20px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" class="slide-logo" style="left: 180px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" class="slide-logo" style="left: 340px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" class="slide-logo" style="left: 500px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" class="slide-logo" style="left: 660px;">
+<img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" class="slide-logo" style="left: 820px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" class="slide-logo" style="left: 980px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" class="slide-logo" style="left: 1140px;">
 
 ---
 
 ## 🔬 Advances in Technology and Digitalization in TVET
-
-@logos
 
 ### 📈 The Digital Transformation Imperative
 
@@ -189,7 +173,15 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.cs
 - **Data-Driven Insights:** Analytics enable personalized learning paths and competency tracking
 </div>
 
-@logos
+<!-- Logos -->
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" class="slide-logo" style="left: 20px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" class="slide-logo" style="left: 180px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" class="slide-logo" style="left: 340px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" class="slide-logo" style="left: 500px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" class="slide-logo" style="left: 660px;">
+<img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" class="slide-logo" style="left: 820px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" class="slide-logo" style="left: 980px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" class="slide-logo" style="left: 1140px;">
 
 ### 🛠️ Transformative Technologies in TVET
 
@@ -200,7 +192,15 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.cs
 | 🌐 **IoT & Sensors** | Real-time equipment monitoring, predictive maintenance training | Industry-relevant skills, data literacy | 🔄 Pilot stage (10% of programs) |
 | 📱 **Mobile Learning** | Micro-learning, just-in-time support, field-based training | Flexibility, accessibility, continuous learning | ✅ Widespread (60%+ adoption) |
 
-@logos
+<!-- Logos -->
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" class="slide-logo" style="left: 20px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" class="slide-logo" style="left: 180px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" class="slide-logo" style="left: 340px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" class="slide-logo" style="left: 500px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" class="slide-logo" style="left: 660px;">
+<img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" class="slide-logo" style="left: 820px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" class="slide-logo" style="left: 980px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" class="slide-logo" style="left: 1140px;">
 
 ---
 
@@ -247,13 +247,19 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.cs
 - Below 6: Focus on building basic digital capacity first
 </div>
 
-@logos
+<!-- Logos -->
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" class="slide-logo" style="left: 20px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" class="slide-logo" style="left: 180px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" class="slide-logo" style="left: 340px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" class="slide-logo" style="left: 500px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" class="slide-logo" style="left: 660px;">
+<img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" class="slide-logo" style="left: 820px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" class="slide-logo" style="left: 980px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" class="slide-logo" style="left: 1140px;">
 
 ---
 
 ## 🌟 Success Stories and Best Practices
-
-@logos
 
 ### 🏆 Global Excellence Examples
 
@@ -293,13 +299,19 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.cs
 - 90% industry satisfaction with graduate preparedness
 </div>
 
-@logos
+<!-- Logos -->
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" class="slide-logo" style="left: 20px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" class="slide-logo" style="left: 180px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" class="slide-logo" style="left: 340px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" class="slide-logo" style="left: 500px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" class="slide-logo" style="left: 660px;">
+<img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" class="slide-logo" style="left: 820px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" class="slide-logo" style="left: 980px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" class="slide-logo" style="left: 1140px;">
 
 ---
 
 ## 🔚 Conclusion and Next Steps
-
-@logos
 
 ### 🎯 Key Takeaways
 
@@ -317,7 +329,15 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.cs
 **📈 Continuous Learning:** Both institutions and individuals must embrace lifelong learning to keep pace with technological change.
 </div>
 
-@logos
+<!-- Logos -->
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" class="slide-logo" style="left: 20px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" class="slide-logo" style="left: 180px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" class="slide-logo" style="left: 340px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" class="slide-logo" style="left: 500px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" class="slide-logo" style="left: 660px;">
+<img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" class="slide-logo" style="left: 820px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" class="slide-logo" style="left: 980px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" class="slide-logo" style="left: 1140px;">
 
 ### 🛣️ Your Implementation Journey
 
@@ -343,7 +363,15 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.cs
 - Plan for gradual scaling based on evidence of success
 </div>
 
-@logos
+<!-- Logos -->
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" class="slide-logo" style="left: 20px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" class="slide-logo" style="left: 180px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" class="slide-logo" style="left: 340px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" class="slide-logo" style="left: 500px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" class="slide-logo" style="left: 660px;">
+<img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" class="slide-logo" style="left: 820px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" class="slide-logo" style="left: 980px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" class="slide-logo" style="left: 1140px;">
 
 ---
 
@@ -369,7 +397,15 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.cs
 - Website: unevoc.unesco.org
 - LinkedIn: UNESCO-UNEVOC International Centre
 
-@logos
+<!-- Logos -->
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" class="slide-logo" style="left: 20px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" class="slide-logo" style="left: 180px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" class="slide-logo" style="left: 340px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" class="slide-logo" style="left: 500px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" class="slide-logo" style="left: 660px;">
+<img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" class="slide-logo" style="left: 820px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" class="slide-logo" style="left: 980px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" class="slide-logo" style="left: 1140px;">
 
 ---
 
@@ -383,7 +419,15 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.cs
 Building Skills for Work and Life</p>
 </div>
 
-@logos
+<!-- Logos -->
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" class="slide-logo" style="left: 20px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" class="slide-logo" style="left: 180px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" class="slide-logo" style="left: 340px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" class="slide-logo" style="left: 500px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" class="slide-logo" style="left: 660px;">
+<img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" class="slide-logo" style="left: 820px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" class="slide-logo" style="left: 980px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" class="slide-logo" style="left: 1140px;">
 
 ---
 
@@ -398,4 +442,12 @@ Building Skills for Work and Life</p>
   <small>🌍 Developed for global sharing and adaptation by UNESCO-UNEVOC</small>
 </div>
 
-@logos
+<!-- Logos -->
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" class="slide-logo" style="left: 20px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" class="slide-logo" style="left: 180px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" class="slide-logo" style="left: 340px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" class="slide-logo" style="left: 500px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" class="slide-logo" style="left: 660px;">
+<img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" class="slide-logo" style="left: 820px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" class="slide-logo" style="left: 980px;">
+<img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" class="slide-logo" style="left: 1140px;">
