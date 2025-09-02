@@ -42,21 +42,17 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
 
 # Folie mit Zwei Inhaltsbereichen (Vorlage)
 
-<div class="table-container">
-  <table class="two-columns">
-    <tr>
-      <td class="column">
-        ### Inhaltsbereich 1
-        - Inhalt links.
-        - Weiterer Text.
-      </td>
-      <td class="column">
-        ### Inhaltsbereich 2
-        - Inhalt rechts.
-        - Weiterer Text.
-      </td>
-    </tr>
-  </table>
+<div class="two-columns">
+  <div class="column">
+    ### Inhaltsbereich 1
+    - Inhalt links.
+    - Weiterer Text.
+  </div>
+  <div class="column">
+    ### Inhaltsbereich 2
+    - Inhalt rechts.
+    - Weiterer Text.
+  </div>
 </div>
 
 <div class="footer-logo"></div>
@@ -65,25 +61,17 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
 
 # Folie mit Zwei Inhaltsbereichen ohne Umrandung (Vorlage)
 
-<div class="table-container">
-  <table class="two-columns-no-border">
-    <tr>
-      <td class="column-no-border">
-        <ul>
-          <li>Bullet-Point 1 links.</li>
-          <li>Bullet-Point 2 links.</li>
-          <li>Bullet-Point 3 links.</li>
-        </ul>
-      </td>
-      <td class="column-no-border">
-        <ul>
-          <li>Bullet-Point 1 rechts.</li>
-          <li>Bullet-Point 2 rechts.</li>
-          <li>Bullet-Point 3 rechts.</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
+<div class="two-columns-no-border">
+  <div class="column-no-border">
+    - Bullet-Point 1 links.
+    - Bullet-Point 2 links.
+    - Bullet-Point 3 links.
+  </div>
+  <div class="column-no-border">
+    - Bullet-Point 1 rechts.
+    - Bullet-Point 2 rechts.
+    - Bullet-Point 3 rechts.
+  </div>
 </div>
 
 <div class="footer-logo"></div>
