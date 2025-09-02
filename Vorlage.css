@@ -88,13 +88,13 @@ img {
 }
 
 /* Folientitel auf der ersten Folie ausblenden */
-section.lia-slide:first-child h1:first-child,
-section.slide:first-child h1:first-child {
+section.lia-slide[role="slide"]:first-child h1:not(.title-slide h1),
+section.slide[role="slide"]:first-child h1:not(.title-slide h1) {
   display: none !important; /* Folientitel der ersten Folie ausblenden */
 }
 
 /* Fallback: Folientitel auf Weiß setzen, falls Ausblenden nicht funktioniert */
-section.lia-slide:first-child h1:first-child,
-section.slide:first-child h1:first-child {
+section.lia-slide[role="slide"]:first-child h1:not(.title-slide h1),
+section.slide[role="slide"]:first-child h1:not(.title-slide h1) {
   color: #FFFFFF !important; /* Weiß, um unsichtbar zu sein */
 }
