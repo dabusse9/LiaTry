@@ -1,6 +1,3 @@
-
-
-
 ## Beispiel-Präsentation mit HTML-Custom-Slide
 
 ---
