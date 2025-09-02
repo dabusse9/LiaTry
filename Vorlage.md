@@ -7,7 +7,7 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/Vorlage.
 <div class="title-slide">
   <h1>Präsentationstitel</h1>
   <h2>Deine Universitätsfakultät</h2>
-  <p class="title-meta">Von: Dein Name</p>
+  <p class="title-meta">Von: Daniel</p>
   <p class="title-meta">Datum: 02.09.2025</p>
 </div>
 
