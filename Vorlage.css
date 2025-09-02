@@ -60,5 +60,4 @@ section::after {
 img {
   max-width: 100% !important;
   height: auto !important;
-  border: 2px solid #F48221 !important; /* Orange Rahmen um Bilder */
 }
