@@ -68,25 +68,23 @@ ul li:before {
   margin: 5px 0 !important;
 }
 
-/* Zwei-Spalten-Layout */
-.two-columns {
-  display: flex !important;
-  flex-direction: row !important; /* Explizit nebeneinander */
-  flex-wrap: nowrap !important; /* Verhindert Umbruch der Spalten */
-  min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
+/* Zwei-Spalten-Layout (Tabelle) */
+table.two-columns {
   width: 100% !important; /* Volle Breite der Folie */
+  min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
   margin: 10px 0 !important; /* Abstand oben und unten */
-  gap: 20px !important; /* Abstand zwischen Spalten */
-  box-sizing: border-box !important; /* Padding und Border in Breite einbeziehen */
+  border-collapse: collapse !important; /* Keine doppelten Rahmen */
+  table-layout: fixed !important; /* Gleiche Spaltenbreite */
 }
 
-.two-columns .column {
-  flex: 1 !important; /* Gleiche Breite für beide Spalten */
-  min-height: 100% !important; /* Volle Höhe des Containers */
+table.two-columns td.column {
+  width: 50% !important; /* Gleiche Breite für beide Spalten */
+  min-height: 100% !important; /* Volle Höhe der Tabelle */
   padding: 15px !important; /* Innenabstand für Lesbarkeit */
   border: 1px solid #F48221 !important; /* Durchgezogene orange Umrandung */
   border-radius: 5px !important; /* Abgerundete Ecken */
   box-sizing: border-box !important; /* Padding und Border in Breite einbeziehen */
+  vertical-align: top !important; /* Inhalt oben ausrichten */
   overflow: auto !important; /* Scrollen bei zu viel Inhalt */
 }
 
