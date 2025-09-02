@@ -57,8 +57,18 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
 
 ---
 
-# Folie mit Zwei Inhaltsbereichen  (Vorlage)
+# Folie mit Zwei Inhaltsbereichen (Vorlage)
 
+<section class="flex-container">
+<!-- class="flex-child-bordered" -->
+    - Inhalt links.
+    - Weiterer Text.
+
+<!-- class="flex-child-bordered" -->
+    - Inhalt rechts.
+    - Weiterer Text.
+
+</section>
 
 <div class="footer-logo"></div>
 
