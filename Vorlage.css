@@ -32,8 +32,8 @@ ul li:before {
   position: fixed !important;
   bottom: 10px !important;
   right: 20px !important;
-  width: 100px !important; /* Breite des Logos */
-  height: 50px !important; /* Höhe des Logos */
+  width: 150px !important; /* Breite des Logos */
+  height: 75px !important; /* Höhe des Logos */
   background-image: url('https://raw.githubusercontent.com/dabusse9/LiaTry/main/FHW.png') !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
