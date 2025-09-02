@@ -23,8 +23,8 @@ Das ist ein **fetter Text**, und hier ist ein *kursiver Text*. Du kannst auch Li
 Was ist die Hauptstadt von Frankreich?
 
     [(X)] Paris
-    [()] Florida
-    [()] Texas
+    [( )] Florida
+    [( )] Texas
 
 ### Code-Beispiel
 
