@@ -40,7 +40,7 @@ ul li:before {
   z-index: 10000 !important; /* Hoher z-index für Sichtbarkeit */
 }
 
-/* Titel-Folie */
+/* Titel-Folie und Überschrift-Folie */
 .title-slide {
   display: flex !important;
   flex-direction: column !important;
@@ -79,6 +79,15 @@ ul li:before {
   padding: 10px !important;
   border: 1px solid #F48221 !important; /* Orange Rahmen für Akzent */
   border-radius: 5px !important;
+}
+
+/* Inhaltsbereich für Folie mit Einem Inhaltsbereich */
+.content-box {
+  background: #fff3e0 !important; /* Helles Orange */
+  border: 2px dashed #ff9800 !important; /* Gestrichelter, orange-farbener Rahmen */
+  border-radius: 10px !important; /* Abgerundete Ecken */
+  padding: 1rem !important; /* Innenabstand */
+  margin: 1rem 0 !important; /* Außenabstand */
 }
 
 /* Weitere Anpassungen, z. B. für Bilder */
