@@ -96,36 +96,6 @@ ul li:before {
     margin-right: 20px !important; /* Adds space between the columns */
 }
 
-/* Flexbox-Container für Zwei-Spalten-Layout (ohne Umrandung) */
-.flex-container.no-border {
-  display: flex !important;
-  flex-wrap: wrap !important; /* Spalten umbrechen bei kleinen Bildschirmen */
-  align-items: stretch !important; /* Spalten auf gleiche Höhe strecken */
-  gap: 20px !important; /* Abstand zwischen Spalten */
-  width: 98vw !important; /* Nahezu volle viewport-Breite */
-  min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
-  margin: 0 auto !important; /* Horizontale Zentrierung */
-  padding: 0 !important;
-}
-
-.flex-container.no-border .flex-child.no-border {
-  flex: 1 !important; /* Gleiche Breite für beide Spalten */
-  min-width: 250px !important; /* Mindestbreite für Spalten */
-  min-height: 100% !important; /* Volle Höhe des Containers */
-  padding: 15px !important; /* Innenabstand für Lesbarkeit */
-  box-sizing: border-box !important; /* Padding in Breite einbeziehen */
-  font-size: 1.3em !important; /* Größere Schrift für Inhalt */
-}
-
-/* Responsive Design für kleine Bildschirme */
-@media (max-width: 600px) {
-  .flex-container .flex-child,
-  .flex-container.no-border .flex-child.no-border {
-    flex: 100% !important; /* Volle Breite auf kleinen Bildschirmen */
-    margin-right: 0 !important; /* Kein rechter Abstand */
-  }
-}
-
 /* Inhaltsbereich für Folie mit Einem Inhaltsbereich */
 .content-box {
   background: #fff3e0 !important; /* Helles Orange */
