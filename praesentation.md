@@ -2,39 +2,34 @@
 link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/style.css
 -->
 
-
 # Mein interaktiver LiaScript-Kurs
-ppppppppppppp
+Test Test Test
 
-## Willkommen
+## Einführung
 
-Dies ist ein einfacher interaktiver Kurs, erstellt mit LiaScript. Hier sind einige Beispiele für interaktive Inhalte:
+Willkommen zu diesem interaktiven Kurs im PowerPoint-Format! Hier lernst du die Grundlagen von LiaScript.
 
-### Text und Formatierung
+?[<img src="logo1.png" class="slide-logo">]
 
-Das ist ein **fetter Text**, und hier ist ein *kursiver Text*. Du kannst auch Listen erstellen:
+### Formatierung
 
-- Punkt 1
-- Punkt 2
-- Punkt 3
+Beispiel für **fett**, *kursiv* und eine Liste:
 
-### Interaktives Quiz
+- Element 1
+- Element 2
+- Element 3
 
-Was ist die Hauptstadt von Frankreich?
+### Quiz
 
-    [(X)] Paris
-    [( )] Florida
-    [( )] Texas
+Welche Farbe hat der Himmel an einem klaren Tag?
+
+    [(X)] Blau
+    [ ] Grün
+    [ ] Rot
 
 ### Code-Beispiel
 
-Hier ist ein einfacher JavaScript-Code, der direkt ausgeführt werden kann:
+Ein ausführbarer Python-Code:
 
-``` javascript
-console.log("Hallo, LiaScript!");
-```
-
-## Fazit
-
-Dies ist ein einfaches Beispiel für einen LiaScript-Kurs mit einer externen CSS-Datei zur Anpassung des Designs. Viel Spaß beim Erstellen deines Kurses!
-
+``` python
+print("Willkommen zu LiaScript!")
