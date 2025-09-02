@@ -63,14 +63,18 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
 
 <div class="two-columns-no-border">
   <div class="column-no-border">
-    - Bullet-Point 1 links.
-    - Bullet-Point 2 links.
-    - Bullet-Point 3 links.
+    <ul>
+      <li>Bullet-Point 1 links.</li>
+      <li>Bullet-Point 2 links.</li>
+      <li>Bullet-Point 3 links.</li>
+    </ul>
   </div>
   <div class="column-no-border">
-    - Bullet-Point 1 rechts.
-    - Bullet-Point 2 rechts.
-    - Bullet-Point 3 rechts.
+    <ul>
+      <li>Bullet-Point 1 rechts.</li>
+      <li>Bullet-Point 2 rechts.</li>
+      <li>Bullet-Point 3 rechts.</li>
+    </ul>
   </div>
 </div>
 
