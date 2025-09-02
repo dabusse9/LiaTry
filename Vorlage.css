@@ -86,8 +86,9 @@ ul li:before {
 /* Flexbox-Container für Zwei-Spalten-Layout (mit Umrandung) */
 .flex-container {
   display: flex !important;
-  justify-content: space-between !important; /* Spalten nebeneinander mit Abstand */
-  flex-wrap: nowrap !important; /* Kein Umbruch, Spalten bleiben nebeneinander */
+  flex-wrap: wrap !important; /* Spalten umbrechen bei kleinen Bildschirmen */
+  align-items: stretch !important; /* Spalten auf gleiche Höhe strecken */
+  gap: 20px !important; /* Abstand zwischen Spalten */
   width: 98vw !important; /* Nahezu volle viewport-Breite */
   min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
   margin: 0 auto !important; /* Horizontale Zentrierung */
@@ -96,24 +97,21 @@ ul li:before {
 
 .flex-container .flex-child {
   flex: 1 !important; /* Gleiche Breite für beide Spalten */
+  min-width: 250px !important; /* Mindestbreite für Spalten */
   min-height: 100% !important; /* Volle Höhe des Containers */
   padding: 15px !important; /* Innenabstand für Lesbarkeit */
   border: 1px solid #F48221 !important; /* Durchgezogene orange Umrandung */
   border-radius: 5px !important; /* Abgerundete Ecken */
   box-sizing: border-box !important; /* Padding und Border in Breite einbeziehen */
-  margin-right: 20px !important; /* Abstand zwischen Spalten */
   font-size: 1.3em !important; /* Größere Schrift für Inhalt */
-}
-
-.flex-container .flex-child:last-child {
-  margin-right: 0 !important; /* Kein rechter Abstand für die letzte Spalte */
 }
 
 /* Flexbox-Container für Zwei-Spalten-Layout (ohne Umrandung) */
 .flex-container.no-border {
   display: flex !important;
-  justify-content: space-between !important; /* Spalten nebeneinander mit Abstand */
-  flex-wrap: nowrap !important; /* Kein Umbruch, Spalten bleiben nebeneinander */
+  flex-wrap: wrap !important; /* Spalten umbrechen bei kleinen Bildschirmen */
+  align-items: stretch !important; /* Spalten auf gleiche Höhe strecken */
+  gap: 20px !important; /* Abstand zwischen Spalten */
   width: 98vw !important; /* Nahezu volle viewport-Breite */
   min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
   margin: 0 auto !important; /* Horizontale Zentrierung */
@@ -122,15 +120,20 @@ ul li:before {
 
 .flex-container.no-border .flex-child.no-border {
   flex: 1 !important; /* Gleiche Breite für beide Spalten */
+  min-width: 250px !important; /* Mindestbreite für Spalten */
   min-height: 100% !important; /* Volle Höhe des Containers */
   padding: 15px !important; /* Innenabstand für Lesbarkeit */
   box-sizing: border-box !important; /* Padding in Breite einbeziehen */
-  margin-right: 20px !important; /* Abstand zwischen Spalten */
   font-size: 1.3em !important; /* Größere Schrift für Inhalt */
 }
 
-.flex-container.no-border .flex-child.no-border:last-child {
-  margin-right: 0 !important; /* Kein rechter Abstand für die letzte Spalte */
+/* Responsive Design für kleine Bildschirme */
+@media (max-width: 600px) {
+  .flex-container .flex-child,
+  .flex-container.no-border .flex-child.no-border {
+    flex: 100% !important; /* Volle Breite auf kleinen Bildschirmen */
+    margin-right: 0 !important; /* Kein rechter Abstand */
+  }
 }
 
 /* Inhaltsbereich für Folie mit Einem Inhaltsbereich */
