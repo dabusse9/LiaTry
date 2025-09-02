@@ -17,7 +17,7 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/Vorlage.
 
 ## <span style="color:white">Überschrift-Folie (Vorlage)</span>
 
-<div class="title-slide">
+<div class="title-slide"><!-- LiaScript: class="title-slide" -->
   <h1>Überschrift-Folie</h1>
 </div>
 
@@ -42,20 +42,22 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
 
 # Folie mit Zwei Inhaltsbereichen (Vorlage)
 
-<table class="two-columns">
-  <tr>
-    <td class="column">
-      ### Inhaltsbereich 1
-      - Inhalt links.
-      - Weiterer Text.
-    </td>
-    <td class="column">
-      ### Inhaltsbereich 2
-      - Inhalt rechts.
-      - Weiterer Text.
-    </td>
-  </tr>
-</table>
+<div class="table-container">
+  <table class="two-columns">
+    <tr>
+      <td class="column">
+        ### Inhaltsbereich 1
+        - Inhalt links.
+        - Weiterer Text.
+      </td>
+      <td class="column">
+        ### Inhaltsbereich 2
+        - Inhalt rechts.
+        - Weiterer Text.
+      </td>
+    </tr>
+  </table>
+</div>
 
 <div class="footer-logo"></div>
 
