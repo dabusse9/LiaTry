@@ -42,13 +42,13 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
 
 # Folie mit Zwei Inhaltsbereichen (Vorlage)
 
-<div class="two-columns">
-  <div class="column">
+<div class="flex-container">
+  <div class="flex-child">
     ### Inhaltsbereich 1
     - Inhalt links.
     - Weiterer Text.
   </div>
-  <div class="column">
+  <div class="flex-child">
     ### Inhaltsbereich 2
     - Inhalt rechts.
     - Weiterer Text.
@@ -61,15 +61,15 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
 
 # Folie mit Zwei Inhaltsbereichen ohne Umrandung (Vorlage)
 
-<div class="two-columns-no-border">
-  <div class="column-no-border">
+<div class="flex-container no-border">
+  <div class="flex-child no-border">
     <ul>
       <li>Bullet-Point 1 links.</li>
       <li>Bullet-Point 2 links.</li>
       <li>Bullet-Point 3 links.</li>
     </ul>
   </div>
-  <div class="column-no-border">
+  <div class="flex-child no-border">
     <ul>
       <li>Bullet-Point 1 rechts.</li>
       <li>Bullet-Point 2 rechts.</li>
