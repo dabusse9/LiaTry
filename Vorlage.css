@@ -1,0 +1,64 @@
+body {
+  background-color: #FFFFFF !important; /* Weißer Hintergrund */
+  color: #000000 !important; /* Schwarze Schrift */
+  font-family: Arial, sans-serif !important; /* Standard-Schriftart, passe bei Bedarf an */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #F48221 !important; /* Orange für Überschriften */
+}
+
+a {
+  color: #F48221 !important; /* Orange für Links */
+}
+
+ul li::marker {
+  color: #F48221 !important; /* Orange für Bullet-Points */
+}
+
+/* Footer mit Logo */
+.footer {
+  position: fixed !important;
+  bottom: 10px !important;
+  right: 20px !important;
+  width: 100px !important; /* Passe die Breite des Logos an */
+  height: auto !important;
+  background-image: url('logo.png') !important; /* Pfad zum Logo, relativ zur CSS */
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  z-index: 1000 !important;
+}
+
+/* Für alle Slides: Footer hinzufügen */
+section::after {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  bottom: 10px !important;
+  right: 20px !important;
+  width: 100px !important;
+  height: 50px !important; /* Passe Höhe an */
+  background-image: url('logo.png') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Zwei-Spalten-Layout */
+.two-columns {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.two-columns .column {
+  width: 48% !important;
+  padding: 10px !important;
+  border: 1px solid #F48221 !important; /* Orange Rahmen für Akzent */
+  border-radius: 5px !important;
+}
+
+/* Weitere Anpassungen, z. B. für Bilder */
+img {
+  max-width: 100% !important;
+  height: auto !important;
+  border: 2px solid #F48221 !important; /* Orange Rahmen um Bilder */
+}
