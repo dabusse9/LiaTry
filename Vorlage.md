@@ -2,7 +2,7 @@
 link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/Vorlage.css
 -->
 
-## <span style="color:white"> Titel </span>
+## <span style="color:white">Titel</span>
 
 <div class="title-slide">
   <h1>Präsentationstitel</h1>
@@ -15,10 +15,11 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/Vorlage.
 
 ---
 
-# Überschrift-Folie (Vorlage)
+## <span style="color:white">Überschrift-Folie</span>
 
-- Kurze Einleitung oder Untertitel.
-- Hier kannst du einen kurzen Text einfügen.
+<div class="title-slide">
+  <h1>Überschrift-Folie</h1>
+</div>
 
 <div class="footer-logo"></div>
 
