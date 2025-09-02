@@ -117,7 +117,7 @@ Kurzer Text zum Bild.
 <div class="title-slide final-slide">
   <h1>Vielen Dank für die Aufmerksamkeit</h1>
   <h2>Gibt es Fragen?</h2>
-  <p class="final-meta"> Kontakt: deine.email@uni.de </p>
+    <p class="title-meta">Kontakt: mail</p>
 </div>
 
 <div class="footer-logo"></div>
