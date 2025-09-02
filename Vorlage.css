@@ -72,13 +72,18 @@ ul li:before {
 .two-columns {
   display: flex !important;
   justify-content: space-between !important;
+  height: calc(100% - 60px) !important; /* Maximale Höhe minus Überschrift und Footer */
+  margin: 10px 0 !important; /* Abstand oben und unten */
+  gap: 20px !important; /* Abstand zwischen Spalten */
 }
 
 .two-columns .column {
-  width: 48% !important;
-  padding: 10px !important;
-  border: 1px solid #F48221 !important; /* Orange Rahmen für Akzent */
-  border-radius: 5px !important;
+  flex: 1 !important; /* Gleiche Breite für beide Spalten */
+  padding: 15px !important; /* Etwas mehr Padding für bessere Lesbarkeit */
+  border: 1px solid #F48221 !important; /* Durchgezogene orange Umrandung */
+  border-radius: 5px !important; /* Abgerundete Ecken */
+  box-sizing: border-box !important; /* Sicherstellen, dass Padding und Border in die Breite einbezogen werden */
+  overflow: auto !important; /* Scrollen bei zu viel Inhalt */
 }
 
 /* Inhaltsbereich für Folie mit Einem Inhaltsbereich */
