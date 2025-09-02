@@ -32,12 +32,40 @@ ul li:before {
   position: fixed !important;
   bottom: 10px !important;
   right: 20px !important;
-  width: 150px !important; /* Breite des Logos */
-  height: 75px !important; /* Höhe des Logos */
+  width: 100px !important; /* Breite des Logos */
+  height: 50px !important; /* Höhe des Logos */
   background-image: url('https://raw.githubusercontent.com/dabusse9/LiaTry/main/FHW.png') !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
   z-index: 10000 !important; /* Hoher z-index für Sichtbarkeit */
+}
+
+/* Titel-Folie */
+.title-slide {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  height: 80% !important; /* Höhe der Titel-Folie, um zentrierten Inhalt zu ermöglichen */
+  padding: 20px !important;
+}
+
+.title-slide h1 {
+  font-size: 2.5em !important; /* Größerer Titel */
+  margin-bottom: 10px !important;
+  border-bottom: 2px solid #F48221 !important; /* Orange Linie unter dem Titel */
+}
+
+.title-slide h2 {
+  font-size: 1.5em !important; /* Kleinere Fakultätsüberschrift */
+  margin-bottom: 20px !important;
+}
+
+.title-slide .title-meta {
+  font-size: 1em !important; /* Kleinere Schrift für Autor und Datum */
+  color: #000000 !important; /* Schwarze Schrift für Meta-Informationen */
+  margin: 5px 0 !important;
 }
 
 /* Zwei-Spalten-Layout */
