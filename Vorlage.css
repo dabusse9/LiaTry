@@ -2,14 +2,19 @@ body {
   background-color: #FFFFFF !important; /* Weißer Hintergrund */
   color: #000000 !important; /* Schwarze Schrift */
   font-family: Arial, sans-serif !important; /* Standard-Schriftart */
-  font-size: 1.2em !important; /* Größere Standard-Schriftgröße */
+  font-size: 1.3em !important; /* Größere Standard-Schriftgröße */
+}
+
+p {
+  font-size: 1.3em !important; /* Größere Schrift für Absätze */
 }
 
 /* LiaScript Slide-Container auf volle Breite setzen */
 .lia-slide {
   width: 100% !important;
   max-width: 100% !important; /* Überschreibt LiaScript-Beschränkungen */
-  padding: 0 10px !important; /* Minimales Padding */
+  margin: 0 auto !important; /* Zentrierung */
+  padding: 0 !important; /* Kein Padding */
   box-sizing: border-box !important;
 }
 
@@ -30,7 +35,7 @@ ul li::marker {
 ul li {
   color: #000000 !important; /* Text bleibt schwarz */
   list-style-type: disc !important; /* Sicherstellen, dass Bulletpoints verwendet werden */
-  font-size: 1.2em !important; /* Größere Schrift für Listenelemente */
+  font-size: 1.3em !important; /* Größere Schrift für Listenelemente */
 }
 
 ul li:before {
@@ -62,18 +67,18 @@ ul li:before {
 }
 
 .title-slide h1 {
-  font-size: 4.5em !important; /* Größerer Titel */
+  font-size: 4.8em !important; /* Größerer Titel */
   margin-bottom: 10px !important;
   border-bottom: 2px solid #F48221 !important; /* Orange Linie unter dem Titel */
 }
 
 .title-slide h2 {
-  font-size: 1.8em !important; /* Größere Fakultätsüberschrift */
+  font-size: 2.0em !important; /* Größere Fakultätsüberschrift */
   margin-bottom: 20px !important;
 }
 
 .title-slide .title-meta {
-  font-size: 1.2em !important; /* Größere Schrift für Autor und Datum */
+  font-size: 1.3em !important; /* Größere Schrift für Autor und Datum */
   color: #000000 !important; /* Schwarze Schrift für Meta-Informationen */
   margin: 5px 0 !important;
 }
@@ -86,6 +91,7 @@ ul li:before {
   width: 100% !important; /* Volle Breite */
   min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
   padding: 0 !important; /* Kein zusätzliches Padding */
+  margin: 0 auto !important; /* Zentrierung */
 }
 
 /* Zwei-Spalten-Layout (Tabelle mit Umrandung) */
@@ -95,6 +101,8 @@ table.two-columns {
   margin: 0 auto !important; /* Horizontale Zentrierung */
   border-collapse: collapse !important; /* Keine doppelten Rahmen */
   table-layout: fixed !important; /* Gleiche Spaltenbreite */
+  left: 0 !important;
+  right: 0 !important;
 }
 
 table.two-columns td.column {
@@ -106,7 +114,7 @@ table.two-columns td.column {
   box-sizing: border-box !important; /* Padding und Border in Breite einbeziehen */
   vertical-align: top !important; /* Inhalt oben ausrichten */
   overflow: auto !important; /* Scrollen bei zu viel Inhalt */
-  font-size: 1.2em !important; /* Größere Schrift für Tabelleninhalt */
+  font-size: 1.3em !important; /* Größere Schrift für Tabelleninhalt */
 }
 
 /* Zwei-Spalten-Layout (Tabelle ohne Umrandung) */
@@ -116,6 +124,8 @@ table.two-columns-no-border {
   margin: 0 auto !important; /* Horizontale Zentrierung */
   border-collapse: collapse !important; /* Keine doppelten Rahmen */
   table-layout: fixed !important; /* Gleiche Spaltenbreite */
+  left: 0 !important;
+  right: 0 !important;
 }
 
 table.two-columns-no-border td.column-no-border {
@@ -125,7 +135,7 @@ table.two-columns-no-border td.column-no-border {
   box-sizing: border-box !important; /* Padding in Breite einbeziehen */
   vertical-align: top !important; /* Inhalt oben ausrichten */
   overflow: auto !important; /* Scrollen bei zu viel Inhalt */
-  font-size: 1.2em !important; /* Größere Schrift für Tabelleninhalt */
+  font-size: 1.3em !important; /* Größere Schrift für Tabelleninhalt */
 }
 
 /* Inhaltsbereich für Folie mit Einem Inhaltsbereich */
@@ -135,7 +145,7 @@ table.two-columns-no-border td.column-no-border {
   border-radius: 10px !important; /* Abgerundete Ecken */
   padding: 1rem !important; /* Innenabstand */
   margin: 1rem 0 !important; /* Außenabstand */
-  font-size: 1.2em !important; /* Größere Schrift für Inhalt */
+  font-size: 1.3em !important; /* Größere Schrift für Inhalt */
 }
 
 /* Weitere Anpassungen, z. B. für Bilder */
