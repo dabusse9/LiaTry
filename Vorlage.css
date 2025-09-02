@@ -16,31 +16,19 @@ ul li::marker {
   color: #F48221 !important; /* Orange für Bullet-Points */
 }
 
-/* Footer mit Logo */
-.footer {
+/* Für alle Slides: Footer mit Logo */
+section::after {
+  content: "" !important;
+  display: block !important;
   position: fixed !important;
   bottom: 10px !important;
   right: 20px !important;
   width: 100px !important; /* Passe die Breite des Logos an */
-  height: auto !important;
-  background-image: url('https://github.com/dabusse9/LiaTry/raw/main/FHW.png') !important; /* Pfad zum Logo */
+  height: 50px !important; /* Passe die Höhe an */
+  background-image: url('https://raw.githubusercontent.com/dabusse9/LiaTry/main/FHW.png') !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
-  z-index: 1000 !important;
-}
-
-/* Für alle Slides: Footer hinzufügen */
-section::after {
-  content: "" !important;
-  display: block !important;
-  position: absolute !important;
-  bottom: 10px !important;
-  right: 20px !important;
-  width: 100px !important;
-  height: 50px !important; /* Passe Höhe an */
-  background-image: url('https://github.com/dabusse9/LiaTry/raw/main/FHW.png') !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
+  z-index: 10000 !important; /* Höherer z-index für Sichtbarkeit */
 }
 
 /* Zwei-Spalten-Layout */
