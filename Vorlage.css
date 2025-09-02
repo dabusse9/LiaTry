@@ -4,7 +4,7 @@ body {
   font-family: Arial, sans-serif !important; /* Standard-Schriftart, passe bei Bedarf an */
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #F48221 !important; /* Orange für Überschriften */
 }
 
@@ -23,7 +23,7 @@ ul li::marker {
   right: 20px !important;
   width: 100px !important; /* Passe die Breite des Logos an */
   height: auto !important;
-  background-image: url('https://github.com/dabusse9/LiaTry/blob/main/FHW.png') !important; /* Pfad zum Logo, relativ zur CSS */
+  background-image: url('https://github.com/dabusse9/LiaTry/raw/main/FHW.png') !important; /* Pfad zum Logo */
   background-size: contain !important;
   background-repeat: no-repeat !important;
   z-index: 1000 !important;
@@ -38,7 +38,7 @@ section::after {
   right: 20px !important;
   width: 100px !important;
   height: 50px !important; /* Passe Höhe an */
-  background-image: url('logo.png') !important;
+  background-image: url('https://github.com/dabusse9/LiaTry/raw/main/FHW.png') !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
 }
@@ -60,4 +60,6 @@ section::after {
 img {
   max-width: 100% !important;
   height: auto !important;
+  border: 2px solid #F48221 !important; /* Orange Rahmen um Bilder */
 }
+```
