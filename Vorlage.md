@@ -104,9 +104,10 @@ Füge hier zusätzlichen Text ein, falls nötig.
 
 # Folie mit Bild (Vorlage)
 
-![Beschreibung des Bildes](https://github.com/dabusse9/LiaTry/raw/main/FHW.png)
-
-Kurzer Text zum Bild.
+<figure class="image-container">
+  <img src="https://github.com/dabusse9/LiaTry/raw/main/FHW.png" alt="Beschreibung des Bildes">
+  <figcaption class="image-caption">Kurzer Text zum Bild.</figcaption>
+</figure>
 
 <div class="footer-logo"></div>
 
