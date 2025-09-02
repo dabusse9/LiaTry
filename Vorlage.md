@@ -74,6 +74,22 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
 
 ---
 
+# Folie mit Inhalt + Bild (Vorlage)
+
+<section class="flex-container">
+<!-- class="flex-child-bordered" -->
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+  invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+
+<!-- class="flex-child" style="min-width: 250px" -->
+![Beschreibung des Bildes](https://github.com/dabusse9/LiaTry/raw/main/FHW.png)
+
+</section>
+
+<div class="footer-logo"></div>
+
+---
+
 # Folie mit Bullet-Points (Vorlage)
 
 - Bullet-Point 1: Beschreibung.
