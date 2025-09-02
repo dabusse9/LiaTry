@@ -1,8 +1,16 @@
-```
 body {
   background-color: #FFFFFF !important; /* Weißer Hintergrund */
   color: #000000 !important; /* Schwarze Schrift */
-  font-family: Arial, sans-serif !important; /* Standard-Schriftart, passe bei Bedarf an */
+  font-family: Arial, sans-serif !important; /* Standard-Schriftart */
+  font-size: 1.2em !important; /* Größere Standard-Schriftgröße */
+}
+
+/* LiaScript Slide-Container auf volle Breite setzen */
+.lia-slide {
+  width: 100% !important;
+  max-width: 100% !important; /* Überschreibt LiaScript-Beschränkungen */
+  padding: 0 10px !important; /* Minimales Padding */
+  box-sizing: border-box !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,6 +30,7 @@ ul li::marker {
 ul li {
   color: #000000 !important; /* Text bleibt schwarz */
   list-style-type: disc !important; /* Sicherstellen, dass Bulletpoints verwendet werden */
+  font-size: 1.2em !important; /* Größere Schrift für Listenelemente */
 }
 
 ul li:before {
@@ -48,23 +57,23 @@ ul li:before {
   align-items: center !important;
   justify-content: center !important;
   text-align: center !important;
-  height: 80% !important; /* Höhe der Titel-Folie, um zentrierten Inhalt zu ermöglichen */
+  height: 80% !important; /* Höhe der Titel-Folie */
   padding: 20px !important;
 }
 
 .title-slide h1 {
-  font-size: 4.0em !important; /* Größerer Titel */
+  font-size: 4.5em !important; /* Größerer Titel */
   margin-bottom: 10px !important;
   border-bottom: 2px solid #F48221 !important; /* Orange Linie unter dem Titel */
 }
 
 .title-slide h2 {
-  font-size: 1.5em !important; /* Kleinere Fakultätsüberschrift */
+  font-size: 1.8em !important; /* Größere Fakultätsüberschrift */
   margin-bottom: 20px !important;
 }
 
 .title-slide .title-meta {
-  font-size: 1em !important; /* Kleinere Schrift für Autor und Datum */
+  font-size: 1.2em !important; /* Größere Schrift für Autor und Datum */
   color: #000000 !important; /* Schwarze Schrift für Meta-Informationen */
   margin: 5px 0 !important;
 }
@@ -76,11 +85,12 @@ ul li:before {
   align-items: flex-start !important; /* Vertikale Ausrichtung oben */
   width: 100% !important; /* Volle Breite */
   min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
+  padding: 0 !important; /* Kein zusätzliches Padding */
 }
 
 /* Zwei-Spalten-Layout (Tabelle mit Umrandung) */
 table.two-columns {
-  width: 90% !important; /* Etwas Rand für Ästhetik */
+  width: 98% !important; /* Nahezu volle Breite */
   min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
   margin: 0 auto !important; /* Horizontale Zentrierung */
   border-collapse: collapse !important; /* Keine doppelten Rahmen */
@@ -96,11 +106,12 @@ table.two-columns td.column {
   box-sizing: border-box !important; /* Padding und Border in Breite einbeziehen */
   vertical-align: top !important; /* Inhalt oben ausrichten */
   overflow: auto !important; /* Scrollen bei zu viel Inhalt */
+  font-size: 1.2em !important; /* Größere Schrift für Tabelleninhalt */
 }
 
 /* Zwei-Spalten-Layout (Tabelle ohne Umrandung) */
 table.two-columns-no-border {
-  width: 90% !important; /* Etwas Rand für Ästhetik */
+  width: 98% !important; /* Nahezu volle Breite */
   min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
   margin: 0 auto !important; /* Horizontale Zentrierung */
   border-collapse: collapse !important; /* Keine doppelten Rahmen */
@@ -114,6 +125,7 @@ table.two-columns-no-border td.column-no-border {
   box-sizing: border-box !important; /* Padding in Breite einbeziehen */
   vertical-align: top !important; /* Inhalt oben ausrichten */
   overflow: auto !important; /* Scrollen bei zu viel Inhalt */
+  font-size: 1.2em !important; /* Größere Schrift für Tabelleninhalt */
 }
 
 /* Inhaltsbereich für Folie mit Einem Inhaltsbereich */
@@ -123,6 +135,7 @@ table.two-columns-no-border td.column-no-border {
   border-radius: 10px !important; /* Abgerundete Ecken */
   padding: 1rem !important; /* Innenabstand */
   margin: 1rem 0 !important; /* Außenabstand */
+  font-size: 1.2em !important; /* Größere Schrift für Inhalt */
 }
 
 /* Weitere Anpassungen, z. B. für Bilder */
@@ -130,4 +143,3 @@ img {
   max-width: 100% !important;
   height: auto !important;
 }
-```
