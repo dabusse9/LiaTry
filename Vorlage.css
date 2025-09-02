@@ -52,7 +52,7 @@ ul li:before {
 }
 
 .title-slide h1 {
-  font-size: 2.5em !important; /* Größerer Titel */
+  font-size: 4.0em !important; /* Größerer Titel */
   margin-bottom: 10px !important;
   border-bottom: 2px solid #F48221 !important; /* Orange Linie unter dem Titel */
 }
