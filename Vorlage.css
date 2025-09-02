@@ -1,21 +1,7 @@
 body {
   background-color: #FFFFFF !important; /* Weißer Hintergrund */
   color: #000000 !important; /* Schwarze Schrift */
-  font-family: Arial, sans-serif !important; /* Standard-Schriftart */
-  font-size: 1.3em !important; /* Größere Standard-Schriftgröße */
-}
-
-p {
-  font-size: 1.3em !important; /* Größere Schrift für Absätze */
-}
-
-/* LiaScript Slide-Container auf volle Breite setzen */
-.lia-slide {
-  width: 100vw !important; /* Volle viewport-Breite */
-  max-width: none !important; /* Keine Breitenbeschränkung */
-  margin: 0 auto !important; /* Zentrierung */
-  padding: 0 !important; /* Kein Padding */
-  box-sizing: border-box !important;
+  font-family: Arial, sans-serif !important; /* Standard-Schriftart, passe bei Bedarf an */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,117 +21,55 @@ ul li::marker {
 ul li {
   color: #000000 !important; /* Text bleibt schwarz */
   list-style-type: disc !important; /* Sicherstellen, dass Bulletpoints verwendet werden */
-  font-size: 1.3em !important; /* Größere Schrift für Listenelemente */
 }
 
 ul li:before {
   color: #F48221 !important; /* Zusätzliche Regel für LiaScript-kompatible Bulletpoints */
 }
 
-/* Footer-Logo */
+/* Footer mit Logo */
 .footer-logo {
   position: fixed !important;
   bottom: 10px !important;
   right: 20px !important;
-  width: 150px !important; /* Breite des Logos */
-  height: 75px !important; /* Höhe des Logos */
-  background-image: url('https://raw.githubusercontent.com/dabusse9/LiaTry/main/FHW.png') !important;
+  width: 100px !important; /* Passe die Breite des Logos an */
+  height: 50px !important; /* Passe Höhe an */
+  background-image: url('https://github.com/dabusse9/LiaTry/raw/main/FHW.png') !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
-  z-index: 10000 !important; /* Hoher z-index für Sichtbarkeit */
+  z-index: 1000 !important;
 }
 
-/* Titel-Folie und Überschrift-Folie */
-.title-slide {
+/* Für alle Slides: Footer hinzufügen */
+section::after {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  bottom: 10px !important;
+  right: 20px !important;
+  width: 100px !important;
+  height: 50px !important; /* Passe Höhe an */
+  background-image: url('https://github.com/dabusse9/LiaTry/raw/main/FHW.png') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Zwei-Spalten-Layout */
+.two-columns {
   display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
-  text-align: center !important;
-  height: 80% !important; /* Höhe der Titel-Folie */
-  padding: 20px !important;
+  justify-content: space-between !important;
 }
 
-.title-slide h1 {
-  font-size: 4.8em !important; /* Größerer Titel */
-  margin-bottom: 10px !important;
-  border-bottom: 2px solid #F48221 !important; /* Orange Linie unter dem Titel */
-}
-
-.title-slide h2 {
-  font-size: 2.0em !important; /* Größere Fakultätsüberschrift */
-  margin-bottom: 20px !important;
-}
-
-.title-slide .title-meta {
-  font-size: 1.3em !important; /* Größere Schrift für Autor und Datum */
-  color: #000000 !important; /* Schwarze Schrift für Meta-Informationen */
-  margin: 5px 0 !important;
-}
-
-/* Container für Tabellen-Zentrierung */
-.table-container {
-  display: flex !important;
-  justify-content: center !important; /* Horizontale Zentrierung */
-  align-items: flex-start !important; /* Vertikale Ausrichtung oben */
-  width: 100% !important; /* Volle Breite */
-  min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
-  padding: 0 !important; /* Kein zusätzliches Padding */
-  margin: 0 auto !important; /* Zentrierung */
-}
-
-/* Zwei-Spalten-Layout (Tabelle mit Umrandung) */
-table.two-columns {
-  width: 98vw !important; /* Nahezu volle viewport-Breite */
-  min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
-  margin: 0 auto !important; /* Horizontale Zentrierung */
-  border-collapse: collapse !important; /* Keine doppelten Rahmen */
-  table-layout: fixed !important; /* Gleiche Spaltenbreite */
-}
-
-table.two-columns td.column {
-  width: 50% !important; /* Gleiche Breite für beide Spalten */
-  min-height: 100% !important; /* Volle Höhe der Tabelle */
-  padding: 15px !important; /* Innenabstand für Lesbarkeit */
-  border: 1px solid #F48221 !important; /* Durchgezogene orange Umrandung */
-  border-radius: 5px !important; /* Abgerundete Ecken */
-  box-sizing: border-box !important; /* Padding und Border in Breite einbeziehen */
-  vertical-align: top !important; /* Inhalt oben ausrichten */
-  overflow: auto !important; /* Scrollen bei zu viel Inhalt */
-  font-size: 1.3em !important; /* Größere Schrift für Tabelleninhalt */
-}
-
-/* Zwei-Spalten-Layout (Tabelle ohne Umrandung) */
-table.two-columns-no-border {
-  width: 98vw !important; /* Nahezu volle viewport-Breite */
-  min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
-  margin: 0 auto !important; /* Horizontale Zentrierung */
-  border-collapse: collapse !important; /* Keine doppelten Rahmen */
-  table-layout: fixed !important; /* Gleiche Spaltenbreite */
-}
-
-table.two-columns-no-border td.column-no-border {
-  width: 50% !important; /* Gleiche Breite für beide Spalten */
-  min-height: 100% !important; /* Volle Höhe der Tabelle */
-  padding: 15px !important; /* Innenabstand für Lesbarkeit */
-  box-sizing: border-box !important; /* Padding in Breite einbeziehen */
-  vertical-align: top !important; /* Inhalt oben ausrichten */
-  overflow: auto !important; /* Scrollen bei zu viel Inhalt */
-  font-size: 1.3em !important; /* Größere Schrift für Tabelleninhalt */
-}
-
-/* Inhaltsbereich für Folie mit Einem Inhaltsbereich */
-.content-box {
-  background: #fff3e0 !important; /* Helles Orange */
-  border: 2px dashed #ff9800 !important; /* Gestrichelter, orange-farbener Rahmen */
-  border-radius: 10px !important; /* Abgerundete Ecken */
-  padding: 1rem !important; /* Innenabstand */
-  margin: 1rem 0 !important; /* Außenabstand */
-  font-size: 1.3em !important; /* Größere Schrift für Inhalt */
+.two-columns .column {
+  width: 48% !important;
+  padding: 10px !important;
+  border: 1px solid #F48221 !important; /* Orange Rahmen für Akzent */
+  border-radius: 5px !important;
 }
 
 /* Weitere Anpassungen, z. B. für Bilder */
 img {
   max-width: 100% !important;
   height: auto !important;
+  border: 2px solid #F48221 !important; /* Orange Rahmen um Bilder */
 }
