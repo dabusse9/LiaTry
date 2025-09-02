@@ -1,5 +1,6 @@
 <!-- Dies ist eine Vorlage für Präsentationen in LiaScript. -->
-<!-- @import: Vorlage.css -->
+<!-- @import: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/Vorlage.css
+-->
 
 # Titel-Folie (Vorlage)
 
