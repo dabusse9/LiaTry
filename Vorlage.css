@@ -69,11 +69,20 @@ ul li:before {
   margin: 5px 0 !important;
 }
 
+/* Container für Tabellen-Zentrierung */
+.table-container {
+  display: flex !important;
+  justify-content: center !important; /* Horizontale Zentrierung */
+  align-items: flex-start !important; /* Vertikale Ausrichtung oben */
+  width: 100% !important; /* Volle Breite */
+  min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
+}
+
 /* Zwei-Spalten-Layout (Tabelle mit Umrandung) */
 table.two-columns {
-  width: 100% !important; /* Volle Breite der Folie */
+  width: 90% !important; /* Etwas Rand für Ästhetik */
   min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
-  margin: 10px 0 !important; /* Abstand oben und unten */
+  margin: 0 auto !important; /* Horizontale Zentrierung */
   border-collapse: collapse !important; /* Keine doppelten Rahmen */
   table-layout: fixed !important; /* Gleiche Spaltenbreite */
 }
@@ -91,9 +100,9 @@ table.two-columns td.column {
 
 /* Zwei-Spalten-Layout (Tabelle ohne Umrandung) */
 table.two-columns-no-border {
-  width: 100% !important; /* Volle Breite der Folie */
+  width: 90% !important; /* Etwas Rand für Ästhetik */
   min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
-  margin: 10px 0 !important; /* Abstand oben und unten */
+  margin: 0 auto !important; /* Horizontale Zentrierung */
   border-collapse: collapse !important; /* Keine doppelten Rahmen */
   table-layout: fixed !important; /* Gleiche Spaltenbreite */
 }
