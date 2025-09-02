@@ -77,7 +77,7 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
 # Folie mit Inhalt + Bild (Vorlage)
 
 <section class="flex-container">
-<!-- class="flex-child-bordered" -->
+<!-- class="flex-child" style="min-width: 250px" -->
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
   invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
 
