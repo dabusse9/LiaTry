@@ -11,8 +11,8 @@ p {
 
 /* LiaScript Slide-Container auf volle Breite setzen */
 .lia-slide {
-  width: 100% !important;
-  max-width: 100% !important; /* Überschreibt LiaScript-Beschränkungen */
+  width: 100vw !important; /* Volle viewport-Breite */
+  max-width: none !important; /* Keine Breitenbeschränkung */
   margin: 0 auto !important; /* Zentrierung */
   padding: 0 !important; /* Kein Padding */
   box-sizing: border-box !important;
@@ -96,13 +96,11 @@ ul li:before {
 
 /* Zwei-Spalten-Layout (Tabelle mit Umrandung) */
 table.two-columns {
-  width: 98% !important; /* Nahezu volle Breite */
+  width: 1200px !important; /* Feste Breite */
   min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
   margin: 0 auto !important; /* Horizontale Zentrierung */
   border-collapse: collapse !important; /* Keine doppelten Rahmen */
   table-layout: fixed !important; /* Gleiche Spaltenbreite */
-  left: 0 !important;
-  right: 0 !important;
 }
 
 table.two-columns td.column {
@@ -119,13 +117,11 @@ table.two-columns td.column {
 
 /* Zwei-Spalten-Layout (Tabelle ohne Umrandung) */
 table.two-columns-no-border {
-  width: 98% !important; /* Nahezu volle Breite */
+  width: 1200px !important; /* Feste Breite */
   min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
   margin: 0 auto !important; /* Horizontale Zentrierung */
   border-collapse: collapse !important; /* Keine doppelten Rahmen */
   table-layout: fixed !important; /* Gleiche Spaltenbreite */
-  left: 0 !important;
-  right: 0 !important;
 }
 
 table.two-columns-no-border td.column-no-border {
