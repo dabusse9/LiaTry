@@ -17,7 +17,7 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/Vorlage.
 
 ## <span style="color:white">Überschrift-Folie (Vorlage)</span>
 
-<div class="title-slide"><!-- LiaScript: class="title-slide" -->
+<div class="title-slide">
   <h1>Überschrift-Folie</h1>
 </div>
 
