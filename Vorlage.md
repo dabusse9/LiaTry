@@ -40,7 +40,7 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
 
 ---
 
-# Folie mit Zwei Inhaltsbereichen (Vorlage)
+# Folie mit Zwei Inhaltsbereichen boxed (Vorlage)
 
 <table class="two-columns">
   <tr>
