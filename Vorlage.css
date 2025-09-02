@@ -85,25 +85,15 @@ ul li:before {
 
 /* Flexbox-Container für Zwei-Spalten-Layout (mit Umrandung) */
 .flex-container {
-  display: flex !important;
-  flex-wrap: wrap !important; /* Spalten umbrechen bei kleinen Bildschirmen */
-  align-items: stretch !important; /* Spalten auf gleiche Höhe strecken */
-  gap: 20px !important; /* Abstand zwischen Spalten */
-  width: 98vw !important; /* Nahezu volle viewport-Breite */
-  min-height: calc(100vh - 100px) !important; /* Maximale Höhe minus Überschrift und Footer */
-  margin: 0 auto !important; /* Horizontale Zentrierung */
-  padding: 0 !important;
+    display: flex !important;
+    flex-wrap: wrap !important; /* Allows the items to wrap as needed */
+    align-items: stretch !important;
+    gap: 20px !important; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-container .flex-child {
-  flex: 1 !important; /* Gleiche Breite für beide Spalten */
-  min-width: 250px !important; /* Mindestbreite für Spalten */
-  min-height: 100% !important; /* Volle Höhe des Containers */
-  padding: 15px !important; /* Innenabstand für Lesbarkeit */
-  border: 1px solid #F48221 !important; /* Durchgezogene orange Umrandung */
-  border-radius: 5px !important; /* Abgerundete Ecken */
-  box-sizing: border-box !important; /* Padding und Border in Breite einbeziehen */
-  font-size: 1.3em !important; /* Größere Schrift für Inhalt */
+.flex-child { 
+    flex: 1 !important;
+    margin-right: 20px !important; /* Adds space between the columns */
 }
 
 /* Flexbox-Container für Zwei-Spalten-Layout (ohne Umrandung) */
