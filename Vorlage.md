@@ -112,8 +112,9 @@ Kurzer Text zum Bild.
 
 ---
 
-# Abschluss-Folie (Vorlage)
-<div class="title-slide">
+## <span style="color:white">Abschluss-Folie (Vorlage)</span>
+
+<div class="title-slide final-slide">
   <h1>Vielen Dank für die Aufmerksamkeit</h1>
   <h2>Gibt es Fragen?</h2>
   <p class="final-meta">Kontakt: deine.email@uni.de</p>
