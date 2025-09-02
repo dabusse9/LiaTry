@@ -1,45 +1,78 @@
-
-/* Allgemeine Stile für den LiaScript-Kurs */
+/* Allgemeine Stile */
 body {
-  background-color: #f5f5f5 !important;
-  font-family: 'Arial', sans-serif !important;
+  background-color: #f4f6f9 !important;
+  font-family: 'Verdana', sans-serif !important;
   color: #333 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-/* Stil für Überschriften */
+/* PowerPoint-ähnliches Folienformat (Querformat) */
+.lia-slide {
+  max-width: 960px !important;
+  aspect-ratio: 16 / 9 !important;
+  margin: 20px auto !important;
+  padding: 40px !important;
+  background-color: #fff !important;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15) !important;
+  border-radius: 10px !important;
+  position: relative !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+
+/* Überschriften */
 h1, h2, h3 {
   color: #F48221 !important;
   border-bottom: 2px solid #F48221 !important;
   padding-bottom: 5px !important;
 }
 
-/* Stil für Quiz-Elemente */
+/* Quiz-Elemente */
 input[type="radio"] + label {
-  background-color: #ecf0f1 !important;
-  padding: 5px 10px !important;
-  border-radius: 5px !important;
-  transition: background-color 0.3s !important;
+  background-color: #dfe4ea !important;
+  padding: 10px 15px !important;
+  border-radius: 6px !important;
+  transition: background-color 0.3s ease !important;
 }
 
 input[type="radio"]:checked + label {
-  background-color: #3498db !important;
-  color: white !important;
+  background-color: #6a89cc !important;
+  color: #fff !important;
 }
 
-/* Stil für Code-Blöcke */
+/* Code-Blöcke */
 pre {
-  background-color: #2d2d2d !important;
-  color: #f8f8f2 !important;
-  padding: 15px !important;
-  border-radius: 5px !important;
-  font-family: 'Courier New', monospace !important;
+  background-color: #2f3640 !important;
+  color: #e0e0e0 !important;
+  padding: 20px !important;
+  border-radius: 8px !important;
+  font-family: 'Monaco', monospace !important;
+  max-height: 400px !important;
+  overflow: auto !important;
 }
 
-/* Container für LiaScript-Inhalte */
-.lia-slide {
-  max-width: 800px !important;
-  margin: 0 auto !important;
-  padding: 20px !important;
-  background-color: white !important;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+/* Logo am unteren Rand */
+.slide-logo {
+  position: absolute !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  width: 100px !important;
+  height: auto !important;
+  opacity: 0.8 !important;
+}
+
+/* Responsive Anpassung */
+@media (max-width: 768px) {
+  .lia-slide {
+    padding: 20px !important;
+    aspect-ratio: auto !important;
+    min-height: 400px !important;
+  }
+  .slide-logo {
+    width: 80px !important;
+    bottom: 10px !important;
+    right: 10px !important;
+  }
 }
