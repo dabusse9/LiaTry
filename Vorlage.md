@@ -121,3 +121,5 @@ Kurzer Text zum Bild.
 </div>
 
 <div class="footer-logo"></div>
+
+---
