@@ -8,7 +8,9 @@ link: https://raw.githubusercontent.com/dabusse9/LiaTry/refs/heads/main/Vorlage.
 Präsentationstitel  
 
 Von: Dein Name  
-Datum: [Aktuelles Datum]
+Datum: 02.09.2025
+
+<div class="footer-logo"></div>
 
 ---
 
@@ -16,6 +18,8 @@ Datum: [Aktuelles Datum]
 
 - Kurze Einleitung oder Untertitel.
 - Hier kannst du einen kurzen Text einfügen.
+
+<div class="footer-logo"></div>
 
 ---
 
@@ -27,6 +31,8 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
 - Punkt 1
 - Punkt 2
 - Punkt 3
+
+<div class="footer-logo"></div>
 
 ---
 
@@ -45,6 +51,8 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
   </div>
 </div>
 
+<div class="footer-logo"></div>
+
 ---
 
 # Folie mit Bullet-Points (Vorlage)
@@ -55,13 +63,17 @@ Hier kannst du Text, Aufzählungen oder Absätze einfügen.
 
 Füge hier zusätzlichen Text ein, falls nötig.
 
+<div class="footer-logo"></div>
+
 ---
 
 # Folie mit Bild (Vorlage)
 
-![Beschreibung des Bildes](https://github.com/dabusse9/LiaTry/blob/main/FHW.png)
+![Beschreibung des Bildes](https://github.com/dabusse9/LiaTry/raw/main/FHW.png)
 
 Kurzer Text zum Bild.
+
+<div class="footer-logo"></div>
 
 ---
 
@@ -70,3 +82,5 @@ Kurzer Text zum Bild.
 
 - Fragen?
 - Kontakt: deine.email@uni.de
+
+<div class="footer-logo"></div>
